@@ -1,0 +1,31 @@
+name: ci
+on:
+  push: { branches: [main] }
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install -e ".[dev]"
+      - run: ruff check src tests evals scripts && ruff format --check src tests evals scripts
+      - run: pytest -q tests
+
+  retrieval-evals:
+    # Deterministic, no API key: hit@5 / MRR over the eval questions with the real embedder + reranker,
+    # plus the permission-leak check. Fails the PR if retrieval quality drops below the bar.
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - uses: actions/cache@v4
+        with: { path: ~/.cache/fastembed, key: fastembed-bge-small-minilm }
+      - run: pip install -e ".[dev]"
+      - run: pytest -q -s evals/test_retrieval.py
+        env: { EVAL_EMBEDDER: fastembed, FASTEMBED_CACHE_PATH: ~/.cache/fastembed }
+      - uses: actions/upload-artifact@v4
+        with: { name: retrieval-results, path: evals/results/retrieval-fastembed.json }

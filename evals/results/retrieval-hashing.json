@@ -1,0 +1,94 @@
+{
+  "embedder": "hashing",
+  "reranker": "none",
+  "cases": 43,
+  "hit_at_5": 0.8605,
+  "mrr": 0.7519,
+  "misses": [
+    {
+      "id": "K14",
+      "question": "Who must approve a stock adjustment worth RM 2,500 after a cycle count?",
+      "expected": [
+        "SOP-WH-004"
+      ],
+      "got": [
+        "STAFF-FAQ-16",
+        "STAFF-FAQ-09",
+        "HOWTO-09",
+        "SOP-LOG-002",
+        "FAQ-TH-TW-5110"
+      ]
+    },
+    {
+      "id": "K18",
+      "question": "What is the Deepavali campaign price of the Air Fryer 4.5L?",
+      "expected": [
+        "PRC-CMP-2026-10"
+      ],
+      "got": [
+        "FAQ-TH-SA-6104",
+        "STAFF-FAQ-07",
+        "PRD-TH-SA-6104",
+        "PRD-TH-SA-6104",
+        "STORE-PJ"
+      ]
+    },
+    {
+      "id": "K28",
+      "question": "At what temperature is the non-stick coating cured, and for how long?",
+      "expected": [
+        "SOP-MFG-001",
+        "MAT-RM-NS-COAT"
+      ],
+      "got": [
+        "STAFF-FAQ-12",
+        "POL-RET-002",
+        "FAQ-TH-CW-2410",
+        "FAQ-TH-CW-2411",
+        "QC-TH-CW-2411"
+      ]
+    },
+    {
+      "id": "K32",
+      "question": "How long do we have to file a damaged-in-transit claim with a carrier?",
+      "expected": [
+        "SOP-LOG-005"
+      ],
+      "got": [
+        "STAFF-FAQ-02",
+        "HOWTO-01",
+        "STAFF-FAQ-05",
+        "HOWTO-05",
+        "FAQ-TH-SA-6103"
+      ]
+    },
+    {
+      "id": "K38",
+      "question": "How long does a receipt have to be validated in Odoo after goods arrive?",
+      "expected": [
+        "SOP-WH-001"
+      ],
+      "got": [
+        "STAFF-FAQ-02",
+        "HOWTO-03",
+        "STAFF-FAQ-19",
+        "HOWTO-02",
+        "FAQ-TH-SA-6101"
+      ]
+    },
+    {
+      "id": "P02",
+      "question": "What payment plan did we agree with Dapur Bonda Trading?",
+      "expected": [
+        "FIN-ACC-NOTES"
+      ],
+      "got": [
+        "CUS-PROFILE-CUS-DBT",
+        "MIN-2026-08-24",
+        "STAFF-FAQ-12",
+        "PRC-WHS-2026",
+        "PRC-WHS-2026"
+      ]
+    }
+  ]
+}

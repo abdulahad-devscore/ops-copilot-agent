@@ -1,0 +1,29 @@
+---
+id: PRD-TH-TW-5110
+title: "Product Sheet: Stainless Cutlery Set 24pc (TH-TW-5110)"
+type: product_sheet
+owner: Product Manager
+access: [staff, store_manager, finance, management]
+effective: 2026-01-15
+version: 1
+---
+
+# Stainless Cutlery Set 24pc (TH-TW-5110)
+
+| Field | Value |
+|---|---|
+| Category | Tableware |
+| Retail list price | RM 59.90 (excl. SST) |
+| Origin | Imported from Hengfa Tableware Trading |
+| Material | 18/0 stainless steel |
+| Net weight | 4.4 kg |
+| Master carton | 48 units |
+| Warranty | 2 years |
+
+## Selling points
+- Stainless Cutlery Set 24pc designed for Malaysian home kitchens.
+- Easy to clean and store.
+- Backed by Tembusu after-sales service at all stores.
+
+## Care
+Dishwasher safe. Melamine items must not be used in the microwave or oven.

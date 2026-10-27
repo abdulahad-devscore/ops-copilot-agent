@@ -1,0 +1,1424 @@
+[
+  {
+    "tool": "get_stock_by_warehouse",
+    "args": {
+      "sku": "TH-SA-6104"
+    },
+    "is_error": false,
+    "data": [
+      {
+        "sku": "TH-SA-6104",
+        "product": "Air Fryer 4.5L",
+        "warehouse": "DC",
+        "on_hand": 63.0,
+        "reserved": 28.0,
+        "available": 35.0,
+        "incoming": 400.0,
+        "outgoing": 28.0,
+        "reorder_min": 80.0,
+        "reorder_max": 400.0,
+        "below_min": false
+      },
+      {
+        "sku": "TH-SA-6104",
+        "product": "Air Fryer 4.5L",
+        "warehouse": "KLCC",
+        "on_hand": 2.0,
+        "reserved": 0.0,
+        "available": 2.0,
+        "incoming": 0.0,
+        "outgoing": 0.0,
+        "reorder_min": 10.0,
+        "reorder_max": 40.0,
+        "below_min": true
+      },
+      {
+        "sku": "TH-SA-6104",
+        "product": "Air Fryer 4.5L",
+        "warehouse": "PJ",
+        "on_hand": 0.0,
+        "reserved": 0.0,
+        "available": 0.0,
+        "incoming": 0.0,
+        "outgoing": 0.0,
+        "reorder_min": 10.0,
+        "reorder_max": 40.0,
+        "below_min": true
+      },
+      {
+        "sku": "TH-SA-6104",
+        "product": "Air Fryer 4.5L",
+        "warehouse": "PNG",
+        "on_hand": 10.0,
+        "reserved": 0.0,
+        "available": 10.0,
+        "incoming": 0.0,
+        "outgoing": 0.0,
+        "reorder_min": 10.0,
+        "reorder_max": 40.0,
+        "below_min": false
+      }
+    ]
+  },
+  {
+    "tool": "get_stock_by_warehouse",
+    "args": {
+      "sku": "TH-CW-2401"
+    },
+    "is_error": false,
+    "data": [
+      {
+        "sku": "TH-CW-2401",
+        "product": "Cast Aluminium Wok 32cm",
+        "warehouse": "DC",
+        "on_hand": 190.0,
+        "reserved": 0.0,
+        "available": 190.0,
+        "incoming": 0.0,
+        "outgoing": 0.0,
+        "reorder_min": 80.0,
+        "reorder_max": 400.0,
+        "below_min": false
+      },
+      {
+        "sku": "TH-CW-2401",
+        "product": "Cast Aluminium Wok 32cm",
+        "warehouse": "FAC",
+        "on_hand": 279.0,
+        "reserved": 0.0,
+        "available": 279.0,
+        "incoming": 0.0,
+        "outgoing": 0.0,
+        "reorder_min": null,
+        "reorder_max": null,
+        "below_min": false
+      },
+      {
+        "sku": "TH-CW-2401",
+        "product": "Cast Aluminium Wok 32cm",
+        "warehouse": "KLCC",
+        "on_hand": 31.0,
+        "reserved": 0.0,
+        "available": 31.0,
+        "incoming": 0.0,
+        "outgoing": 0.0,
+        "reorder_min": 10.0,
+        "reorder_max": 40.0,
+        "below_min": false
+      },
+      {
+        "sku": "TH-CW-2401",
+        "product": "Cast Aluminium Wok 32cm",
+        "warehouse": "PJ",
+        "on_hand": 24.0,
+        "reserved": 0.0,
+        "available": 24.0,
+        "incoming": 0.0,
+        "outgoing": 0.0,
+        "reorder_min": 10.0,
+        "reorder_max": 40.0,
+        "below_min": false
+      },
+      {
+        "sku": "TH-CW-2401",
+        "product": "Cast Aluminium Wok 32cm",
+        "warehouse": "PNG",
+        "on_hand": 3.0,
+        "reserved": 0.0,
+        "available": 3.0,
+        "incoming": 0.0,
+        "outgoing": 0.0,
+        "reorder_min": 10.0,
+        "reorder_max": 40.0,
+        "below_min": true
+      }
+    ]
+  },
+  {
+    "tool": "get_stock_by_warehouse",
+    "args": {
+      "sku": "RM-AL-INGOT"
+    },
+    "is_error": false,
+    "data": [
+      {
+        "sku": "RM-AL-INGOT",
+        "product": "Aluminium Ingot A356",
+        "warehouse": "FAC",
+        "on_hand": 1450.0,
+        "reserved": 210.0,
+        "available": 1240.0,
+        "incoming": 0.0,
+        "outgoing": 210.0,
+        "reorder_min": 2000.0,
+        "reorder_max": 8000.0,
+        "below_min": true
+      }
+    ]
+  },
+  {
+    "tool": "get_stock_by_warehouse",
+    "args": {
+      "sku": "TH-KS-4201",
+      "warehouse": "KLCC"
+    },
+    "is_error": false,
+    "data": [
+      {
+        "sku": "TH-KS-4201",
+        "product": "Airtight Container 0.8L",
+        "warehouse": "KLCC",
+        "on_hand": 12.0,
+        "reserved": 0.0,
+        "available": 12.0,
+        "incoming": 0.0,
+        "outgoing": 0.0,
+        "reorder_min": 30.0,
+        "reorder_max": 120.0,
+        "below_min": true
+      }
+    ]
+  },
+  {
+    "tool": "get_reorder_suggestions",
+    "args": {
+      "warehouse": "FAC"
+    },
+    "is_error": false,
+    "data": [
+      {
+        "sku": "RM-AL-INGOT",
+        "product": "Aluminium Ingot A356",
+        "warehouse": "FAC",
+        "forecast": 1240.0,
+        "reorder_min": 2000.0,
+        "reorder_max": 8000.0,
+        "suggested_qty": 6760.0,
+        "replenish_from": "supplier"
+      },
+      {
+        "sku": "RM-NS-COAT",
+        "product": "Non-stick Coating (PTFE, 2-layer)",
+        "warehouse": "FAC",
+        "forecast": 35.5,
+        "reorder_min": 60.0,
+        "reorder_max": 250.0,
+        "suggested_qty": 214.5,
+        "replenish_from": "supplier"
+      }
+    ]
+  },
+  {
+    "tool": "get_reorder_suggestions",
+    "args": {
+      "warehouse": "KLCC"
+    },
+    "is_error": false,
+    "data": [
+      {
+        "sku": "TH-KS-4201",
+        "product": "Airtight Container 0.8L",
+        "warehouse": "KLCC",
+        "forecast": 12.0,
+        "reorder_min": 30.0,
+        "reorder_max": 120.0,
+        "suggested_qty": 108.0,
+        "replenish_from": "DC"
+      },
+      {
+        "sku": "TH-KS-4202",
+        "product": "Airtight Container 1.5L",
+        "warehouse": "KLCC",
+        "forecast": 12.0,
+        "reorder_min": 30.0,
+        "reorder_max": 120.0,
+        "suggested_qty": 108.0,
+        "replenish_from": "DC"
+      },
+      {
+        "sku": "TH-SA-6104",
+        "product": "Air Fryer 4.5L",
+        "warehouse": "KLCC",
+        "forecast": 2.0,
+        "reorder_min": 10.0,
+        "reorder_max": 40.0,
+        "suggested_qty": 38.0,
+        "replenish_from": "DC"
+      },
+      {
+        "sku": "TH-KS-4230",
+        "product": "Spice Rack 12-jar",
+        "warehouse": "KLCC",
+        "forecast": 7.0,
+        "reorder_min": 10.0,
+        "reorder_max": 40.0,
+        "suggested_qty": 33.0,
+        "replenish_from": "DC"
+      }
+    ]
+  },
+  {
+    "tool": "get_reorder_suggestions",
+    "args": {
+      "warehouse": "PNG"
+    },
+    "is_error": false,
+    "data": [
+      {
+        "sku": "TH-TW-5101",
+        "product": "Melamine Dinner Plate 10in",
+        "warehouse": "PNG",
+        "forecast": 10.0,
+        "reorder_min": 40.0,
+        "reorder_max": 160.0,
+        "suggested_qty": 150.0,
+        "replenish_from": "DC"
+      },
+      {
+        "sku": "TH-KS-4202",
+        "product": "Airtight Container 1.5L",
+        "warehouse": "PNG",
+        "forecast": 3.0,
+        "reorder_min": 30.0,
+        "reorder_max": 120.0,
+        "suggested_qty": 117.0,
+        "replenish_from": "DC"
+      },
+      {
+        "sku": "TH-KS-4201",
+        "product": "Airtight Container 0.8L",
+        "warehouse": "PNG",
+        "forecast": 16.0,
+        "reorder_min": 30.0,
+        "reorder_max": 120.0,
+        "suggested_qty": 104.0,
+        "replenish_from": "DC"
+      },
+      {
+        "sku": "TH-CW-2410",
+        "product": "Non-stick Frying Pan 24cm",
+        "warehouse": "PNG",
+        "forecast": 2.0,
+        "reorder_min": 10.0,
+        "reorder_max": 40.0,
+        "suggested_qty": 38.0,
+        "replenish_from": "DC"
+      },
+      {
+        "sku": "TH-KS-4203",
+        "product": "Airtight Container 3.0L",
+        "warehouse": "PNG",
+        "forecast": 2.0,
+        "reorder_min": 10.0,
+        "reorder_max": 40.0,
+        "suggested_qty": 38.0,
+        "replenish_from": "DC"
+      },
+      {
+        "sku": "TH-CW-2401",
+        "product": "Cast Aluminium Wok 32cm",
+        "warehouse": "PNG",
+        "forecast": 3.0,
+        "reorder_min": 10.0,
+        "reorder_max": 40.0,
+        "suggested_qty": 37.0,
+        "replenish_from": "DC"
+      },
+      {
+        "sku": "TH-BW-3103",
+        "product": "Muffin Tray 12-cup",
+        "warehouse": "PNG",
+        "forecast": 5.0,
+        "reorder_min": 10.0,
+        "reorder_max": 40.0,
+        "suggested_qty": 35.0,
+        "replenish_from": "DC"
+      },
+      {
+        "sku": "TH-SA-6103",
+        "product": "Hand Blender 300W",
+        "warehouse": "PNG",
+        "forecast": 5.0,
+        "reorder_min": 10.0,
+        "reorder_max": 40.0,
+        "suggested_qty": 35.0,
+        "replenish_from": "DC"
+      },
+      {
+        "sku": "TH-CW-2402",
+        "product": "Cast Aluminium Wok 36cm",
+        "warehouse": "PNG",
+        "forecast": 6.0,
+        "reorder_min": 10.0,
+        "reorder_max": 40.0,
+        "suggested_qty": 34.0,
+        "replenish_from": "DC"
+      },
+      {
+        "sku": "TH-CW-2430",
+        "product": "Saucepan 18cm",
+        "warehouse": "PNG",
+        "forecast": 6.0,
+        "reorder_min": 10.0,
+        "reorder_max": 40.0,
+        "suggested_qty": 34.0,
+        "replenish_from": "DC"
+      },
+      {
+        "sku": "TH-CW-2411",
+        "product": "Non-stick Frying Pan 28cm",
+        "warehouse": "PNG",
+        "forecast": 8.0,
+        "reorder_min": 10.0,
+        "reorder_max": 40.0,
+        "suggested_qty": 32.0,
+        "replenish_from": "DC"
+      },
+      {
+        "sku": "TH-CW-2421",
+        "product": "Stockpot 28cm with Glass Lid",
+        "warehouse": "PNG",
+        "forecast": 9.0,
+        "reorder_min": 10.0,
+        "reorder_max": 40.0,
+        "suggested_qty": 31.0,
+        "replenish_from": "DC"
+      },
+      {
+        "sku": "TH-BW-3102",
+        "product": "Round Cake Tin 20cm",
+        "warehouse": "PNG",
+        "forecast": 9.0,
+        "reorder_min": 10.0,
+        "reorder_max": 40.0,
+        "suggested_qty": 31.0,
+        "replenish_from": "DC"
+      }
+    ]
+  },
+  {
+    "tool": "get_customer_balance",
+    "args": {
+      "customer": "Dapur Bonda"
+    },
+    "is_error": false,
+    "data": {
+      "customer": "Dapur Bonda Trading",
+      "ref": "CUS-DBT",
+      "receivable": 25088.72,
+      "overdue": 11301.13,
+      "open_invoices": 6,
+      "oldest_overdue_days": 22,
+      "credit_limit": 20000.0,
+      "credit_available": -5088.72,
+      "on_credit_hold": true
+    }
+  },
+  {
+    "tool": "get_customer_balance",
+    "args": {
+      "customer": "Pasaraya Seri Mutiara"
+    },
+    "is_error": false,
+    "data": {
+      "customer": "Pasaraya Seri Mutiara Sdn Bhd",
+      "ref": "CUS-PSM",
+      "receivable": 143504.88,
+      "overdue": 39299.26,
+      "open_invoices": 4,
+      "oldest_overdue_days": 53,
+      "credit_limit": 150000.0,
+      "credit_available": 6495.12,
+      "on_credit_hold": false
+    }
+  },
+  {
+    "tool": "get_customer_balance",
+    "args": {
+      "customer": "Restoran Selera Kampung"
+    },
+    "is_error": false,
+    "data": {
+      "customer": "Restoran Selera Kampung Group",
+      "ref": "CUS-RSK",
+      "receivable": 18655.83,
+      "overdue": 9997.32,
+      "open_invoices": 5,
+      "oldest_overdue_days": 22,
+      "credit_limit": 12000.0,
+      "credit_available": -6655.83,
+      "on_credit_hold": true
+    }
+  },
+  {
+    "tool": "get_customer_balance",
+    "args": {
+      "customer": "Borneo Living"
+    },
+    "is_error": false,
+    "data": {
+      "customer": "Borneo Living Retail Sdn Bhd",
+      "ref": "CUS-BLR",
+      "receivable": 111154.61,
+      "overdue": 0.0,
+      "open_invoices": 5,
+      "oldest_overdue_days": 0,
+      "credit_limit": 120000.0,
+      "credit_available": 8845.39,
+      "on_credit_hold": false
+    }
+  },
+  {
+    "tool": "list_open_invoices",
+    "args": {
+      "overdue_only": true,
+      "limit": 100
+    },
+    "is_error": false,
+    "data": [
+      {
+        "number": "INV/2026/00020",
+        "customer": "Melaka Hardware & Kitchen Enterprise",
+        "invoice_date": "2026-07-11",
+        "due_date": "2026-08-10",
+        "amount_total": 10446.06,
+        "amount_due": 10446.06,
+        "days_overdue": 78,
+        "sales_order": "S00020"
+      },
+      {
+        "number": "INV/2026/00062",
+        "customer": "Pasaraya Seri Mutiara Sdn Bhd",
+        "invoice_date": "2026-08-05",
+        "due_date": "2026-09-04",
+        "amount_total": 39299.26,
+        "amount_due": 39299.26,
+        "days_overdue": 53,
+        "sales_order": "S00062"
+      },
+      {
+        "number": "INV/2026/00067",
+        "customer": "Hotel Cempaka Kuala Lumpur",
+        "invoice_date": "2026-08-08",
+        "due_date": "2026-09-07",
+        "amount_total": 14281.91,
+        "amount_due": 14281.91,
+        "days_overdue": 50,
+        "sales_order": "S00067"
+      },
+      {
+        "number": "INV/2026/00086",
+        "customer": "Kuching Home Centre Sdn Bhd",
+        "invoice_date": "2026-08-19",
+        "due_date": "2026-10-03",
+        "amount_total": 10983.51,
+        "amount_due": 10983.51,
+        "days_overdue": 24,
+        "sales_order": "S00086"
+      },
+      {
+        "number": "INV/2026/00115",
+        "customer": "Dapur Bonda Trading",
+        "invoice_date": "2026-09-05",
+        "due_date": "2026-10-05",
+        "amount_total": 6516.73,
+        "amount_due": 6516.73,
+        "days_overdue": 22,
+        "sales_order": "S00115"
+      },
+      {
+        "number": "INV/2026/00139",
+        "customer": "Restoran Selera Kampung Group",
+        "invoice_date": "2026-09-20",
+        "due_date": "2026-10-05",
+        "amount_total": 4963.89,
+        "amount_due": 4963.89,
+        "days_overdue": 22,
+        "sales_order": "S00139"
+      },
+      {
+        "number": "INV/2026/00100",
+        "customer": "Kuching Home Centre Sdn Bhd",
+        "invoice_date": "2026-08-27",
+        "due_date": "2026-10-11",
+        "amount_total": 5248.02,
+        "amount_due": 5248.02,
+        "days_overdue": 16,
+        "sales_order": "S00100"
+      },
+      {
+        "number": "INV/2026/00153",
+        "customer": "Restoran Selera Kampung Group",
+        "invoice_date": "2026-09-28",
+        "due_date": "2026-10-13",
+        "amount_total": 1353.67,
+        "amount_due": 1353.67,
+        "days_overdue": 14,
+        "sales_order": "S00153"
+      },
+      {
+        "number": "INV/2026/00130",
+        "customer": "Dapur Bonda Trading",
+        "invoice_date": "2026-09-13",
+        "due_date": "2026-10-13",
+        "amount_total": 3909.66,
+        "amount_due": 3909.66,
+        "days_overdue": 14,
+        "sales_order": "S00130"
+      },
+      {
+        "number": "INV/2026/00171",
+        "customer": "Restoran Selera Kampung Group",
+        "invoice_date": "2026-10-06",
+        "due_date": "2026-10-21",
+        "amount_total": 3679.76,
+        "amount_due": 3679.76,
+        "days_overdue": 6,
+        "sales_order": "S00171"
+      },
+      {
+        "number": "INV/2026/00145",
+        "customer": "Dapur Bonda Trading",
+        "invoice_date": "2026-09-22",
+        "due_date": "2026-10-22",
+        "amount_total": 874.74,
+        "amount_due": 874.74,
+        "days_overdue": 5,
+        "sales_order": "S00145"
+      },
+      {
+        "number": "INV/2026/00122",
+        "customer": "Kuching Home Centre Sdn Bhd",
+        "invoice_date": "2026-09-08",
+        "due_date": "2026-10-23",
+        "amount_total": 10586.95,
+        "amount_due": 10586.95,
+        "days_overdue": 4,
+        "sales_order": "S00122"
+      },
+      {
+        "number": "INV/2026/00149",
+        "customer": "Hotel Cempaka Kuala Lumpur",
+        "invoice_date": "2026-09-24",
+        "due_date": "2026-10-24",
+        "amount_total": 4575.38,
+        "amount_due": 4575.38,
+        "days_overdue": 3,
+        "sales_order": "S00149"
+      }
+    ]
+  },
+  {
+    "tool": "get_sales_by_period",
+    "args": {
+      "date_from": "2026-07-01",
+      "date_to": "2026-09-30",
+      "group_by": "channel"
+    },
+    "is_error": false,
+    "data": {
+      "date_from": "2026-07-01",
+      "date_to": "2026-09-30",
+      "group_by": "channel",
+      "currency": "MYR",
+      "total_revenue": 929946.86,
+      "rows": [
+        {
+          "key": "Wholesale",
+          "revenue": 718592.76,
+          "quantity": 11061.0,
+          "orders": 72
+        },
+        {
+          "key": "Retail Stores",
+          "revenue": 162245.6,
+          "quantity": 2166.0,
+          "orders": 39
+        },
+        {
+          "key": "Online",
+          "revenue": 49108.5,
+          "quantity": 610.0,
+          "orders": 46
+        }
+      ]
+    }
+  },
+  {
+    "tool": "get_sales_by_period",
+    "args": {
+      "date_from": "2026-07-01",
+      "date_to": "2026-10-26",
+      "group_by": "month"
+    },
+    "is_error": false,
+    "data": {
+      "date_from": "2026-07-01",
+      "date_to": "2026-10-26",
+      "group_by": "month",
+      "currency": "MYR",
+      "total_revenue": 1256196.54,
+      "rows": [
+        {
+          "key": "July 2026",
+          "revenue": 302883.56,
+          "quantity": 4497.0,
+          "orders": 52
+        },
+        {
+          "key": "August 2026",
+          "revenue": 306681.81,
+          "quantity": 4846.0,
+          "orders": 54
+        },
+        {
+          "key": "September 2026",
+          "revenue": 320381.49,
+          "quantity": 4494.0,
+          "orders": 51
+        },
+        {
+          "key": "October 2026",
+          "revenue": 326249.68,
+          "quantity": 4301.0,
+          "orders": 45
+        }
+      ]
+    }
+  },
+  {
+    "tool": "get_sales_by_period",
+    "args": {
+      "date_from": "2026-10-01",
+      "date_to": "2026-10-26",
+      "group_by": "product"
+    },
+    "is_error": false,
+    "data": {
+      "date_from": "2026-10-01",
+      "date_to": "2026-10-26",
+      "group_by": "product",
+      "currency": "MYR",
+      "total_revenue": 326249.68,
+      "rows": [
+        {
+          "key": "[TH-SA-6104] Air Fryer 4.5L",
+          "revenue": 40977.95,
+          "quantity": 157.0,
+          "orders": 10
+        },
+        {
+          "key": "[TH-CW-2421] Stockpot 28cm with Glass Lid",
+          "revenue": 40304.25,
+          "quantity": 241.0,
+          "orders": 14
+        },
+        {
+          "key": "[TH-CW-2402] Cast Aluminium Wok 36cm",
+          "revenue": 33703.8,
+          "quantity": 261.0,
+          "orders": 15
+        },
+        {
+          "key": "[TH-CW-2411] Non-stick Frying Pan 28cm",
+          "revenue": 27464.5,
+          "quantity": 332.0,
+          "orders": 14
+        },
+        {
+          "key": "[TH-CW-2440] Grill Pan 28cm",
+          "revenue": 25462.4,
+          "quantity": 266.0,
+          "orders": 11
+        },
+        {
+          "key": "[TH-CW-2430] Saucepan 18cm",
+          "revenue": 20272.2,
+          "quantity": 337.0,
+          "orders": 14
+        },
+        {
+          "key": "[TH-SA-6103] Hand Blender 300W",
+          "revenue": 15220.1,
+          "quantity": 148.0,
+          "orders": 8
+        },
+        {
+          "key": "[TH-SA-6101] Electric Kettle 1.7L",
+          "revenue": 15036.55,
+          "quantity": 194.0,
+          "orders": 9
+        },
+        {
+          "key": "[TH-KS-4210] Rice Dispenser 10kg",
+          "revenue": 14948.85,
+          "quantity": 248.0,
+          "orders": 14
+        },
+        {
+          "key": "[TH-CW-2420] Stockpot 24cm with Glass Lid",
+          "revenue": 14930.1,
+          "quantity": 105.0,
+          "orders": 12
+        },
+        {
+          "key": "[TH-CW-2401] Cast Aluminium Wok 32cm",
+          "revenue": 14641.5,
+          "quantity": 127.0,
+          "orders": 10
+        },
+        {
+          "key": "[TH-SA-6102] Rice Cooker 1.8L",
+          "revenue": 12815.4,
+          "quantity": 92.0,
+          "orders": 5
+        },
+        {
+          "key": "[TH-CW-2410] Non-stick Frying Pan 24cm",
+          "revenue": 10589.95,
+          "quantity": 154.0,
+          "orders": 10
+        },
+        {
+          "key": "[TH-TW-5110] Stainless Cutlery Set 24pc",
+          "revenue": 10481.6,
+          "quantity": 202.0,
+          "orders": 7
+        },
+        {
+          "key": "[TH-KS-4203] Airtight Container 3.0L",
+          "revenue": 5506.4,
+          "quantity": 272.0,
+          "orders": 13
+        },
+        {
+          "key": "[TH-TW-5120] Glass Tumbler Set of 6",
+          "revenue": 5125.67,
+          "quantity": 192.0,
+          "orders": 10
+        },
+        {
+          "key": "[TH-BW-3104] Baking Tray 40x30cm",
+          "revenue": 3980.4,
+          "quantity": 136.0,
+          "orders": 12
+        },
+        {
+          "key": "[TH-BW-3103] Muffin Tray 12-cup",
+          "revenue": 3191.7,
+          "quantity": 89.0,
+          "orders": 7
+        },
+        {
+          "key": "[TH-BW-3101] Loaf Tin 900g",
+          "revenue": 2542.53,
+          "quantity": 99.0,
+          "orders": 4
+        },
+        {
+          "key": "[TH-KS-4220] Lunch Box 3-compartment",
+          "revenue": 2173.65,
+          "quantity": 122.0,
+          "orders": 9
+        },
+        {
+          "key": "[TH-KS-4202] Airtight Container 1.5L",
+          "revenue": 1518.16,
+          "quantity": 99.0,
+          "orders": 13
+        },
+        {
+          "key": "[TH-KS-4230] Spice Rack 12-jar",
+          "revenue": 1339.71,
+          "quantity": 30.0,
+          "orders": 4
+        },
+        {
+          "key": "[TH-KS-4201] Airtight Container 0.8L",
+          "revenue": 1133.64,
+          "quantity": 96.0,
+          "orders": 7
+        },
+        {
+          "key": "[TH-BW-3102] Round Cake Tin 20cm",
+          "revenue": 1057.38,
+          "quantity": 33.0,
+          "orders": 5
+        },
+        {
+          "key": "[TH-TW-5101] Melamine Dinner Plate 10in",
+          "revenue": 976.53,
+          "quantity": 129.0,
+          "orders": 4
+        },
+        {
+          "key": "[TH-TW-5102] Melamine Bowl 6in",
+          "revenue": 854.76,
+          "quantity": 140.0,
+          "orders": 11
+        }
+      ]
+    }
+  },
+  {
+    "tool": "get_sales_by_period",
+    "args": {
+      "date_from": "2026-09-01",
+      "date_to": "2026-09-30",
+      "group_by": "warehouse"
+    },
+    "is_error": false,
+    "data": {
+      "date_from": "2026-09-01",
+      "date_to": "2026-09-30",
+      "group_by": "warehouse",
+      "currency": "MYR",
+      "total_revenue": 320381.49,
+      "rows": [
+        {
+          "key": "Port Klang Distribution Centre",
+          "revenue": 270595.59,
+          "quantity": 3862.0,
+          "orders": 39
+        },
+        {
+          "key": "Store - Petaling Jaya",
+          "revenue": 18760.2,
+          "quantity": 241.0,
+          "orders": 4
+        },
+        {
+          "key": "Store - KLCC",
+          "revenue": 15538.6,
+          "quantity": 202.0,
+          "orders": 4
+        },
+        {
+          "key": "Store - Penang",
+          "revenue": 15487.1,
+          "quantity": 189.0,
+          "orders": 4
+        }
+      ]
+    }
+  },
+  {
+    "tool": "get_sales_by_period",
+    "args": {
+      "date_from": "2026-07-01",
+      "date_to": "2026-10-26",
+      "group_by": "customer"
+    },
+    "is_error": false,
+    "data": {
+      "date_from": "2026-07-01",
+      "date_to": "2026-10-26",
+      "group_by": "customer",
+      "currency": "MYR",
+      "total_revenue": 1256196.54,
+      "rows": [
+        {
+          "key": "Pasaraya Seri Mutiara Sdn Bhd",
+          "revenue": 260936.19,
+          "quantity": 3583.0,
+          "orders": 11
+        },
+        {
+          "key": "Borneo Living Retail Sdn Bhd",
+          "revenue": 176347.14,
+          "quantity": 2825.0,
+          "orders": 11
+        },
+        {
+          "key": "HomeMart Ipoh Sdn Bhd",
+          "revenue": 164999.78,
+          "quantity": 2429.0,
+          "orders": 11
+        },
+        {
+          "key": "Kuching Home Centre Sdn Bhd",
+          "revenue": 134815.7,
+          "quantity": 1819.0,
+          "orders": 12
+        },
+        {
+          "key": "Walk-in Customer - KLCC",
+          "revenue": 89230.2,
+          "quantity": 1115.0,
+          "orders": 17
+        },
+        {
+          "key": "Melaka Hardware & Kitchen Enterprise",
+          "revenue": 86897.02,
+          "quantity": 1547.0,
+          "orders": 12
+        },
+        {
+          "key": "Walk-in Customer - Petaling Jaya",
+          "revenue": 73650.5,
+          "quantity": 958.0,
+          "orders": 17
+        },
+        {
+          "key": "Hotel Cempaka Kuala Lumpur",
+          "revenue": 59008.36,
+          "quantity": 815.0,
+          "orders": 11
+        },
+        {
+          "key": "Online Store Customers",
+          "revenue": 58735.0,
+          "quantity": 733.0,
+          "orders": 59
+        },
+        {
+          "key": "Walk-in Customer - Penang",
+          "revenue": 55702.1,
+          "quantity": 792.0,
+          "orders": 17
+        },
+        {
+          "key": "Dapur Bonda Trading",
+          "revenue": 48054.05,
+          "quantity": 811.0,
+          "orders": 11
+        },
+        {
+          "key": "Restoran Selera Kampung Group",
+          "revenue": 47820.5,
+          "quantity": 711.0,
+          "orders": 13
+        }
+      ]
+    }
+  },
+  {
+    "tool": "list_purchase_orders",
+    "args": {
+      "status": "to_receive"
+    },
+    "is_error": false,
+    "data": [
+      {
+        "number": "P00017",
+        "supplier": "Brightwave Home Appliances Co., Ltd.",
+        "supplier_ref": null,
+        "warehouse": "DC",
+        "state": "purchase",
+        "order_date": "2026-10-24 10:00:00",
+        "amount_untaxed": 81600.0,
+        "amount_total": 89760.0,
+        "receipt_status": "pending",
+        "billing_status": "no",
+        "lines": [],
+        "receipts": []
+      },
+      {
+        "number": "P00016",
+        "supplier": "Butterworth Steel Trading Sdn Bhd",
+        "supplier_ref": null,
+        "warehouse": "FAC",
+        "state": "purchase",
+        "order_date": "2026-10-22 10:00:00",
+        "amount_untaxed": 10800.0,
+        "amount_total": 10800.0,
+        "receipt_status": "pending",
+        "billing_status": "no",
+        "lines": [],
+        "receipts": []
+      },
+      {
+        "number": "P00009",
+        "supplier": "Klang Valley Plastics Sdn Bhd",
+        "supplier_ref": null,
+        "warehouse": "FAC",
+        "state": "purchase",
+        "order_date": "2026-10-13 10:00:00",
+        "amount_untaxed": 18800.0,
+        "amount_total": 18800.0,
+        "receipt_status": "partial",
+        "billing_status": "to invoice",
+        "lines": [],
+        "receipts": []
+      },
+      {
+        "number": "P00014",
+        "supplier": "Hengfa Tableware Trading Co., Ltd.",
+        "supplier_ref": null,
+        "warehouse": "DC",
+        "state": "purchase",
+        "order_date": "2026-10-11 10:00:00",
+        "amount_untaxed": 16650.0,
+        "amount_total": 18315.0,
+        "receipt_status": "partial",
+        "billing_status": "to invoice",
+        "lines": [],
+        "receipts": []
+      }
+    ]
+  },
+  {
+    "tool": "list_purchase_orders",
+    "args": {
+      "status": "to_bill"
+    },
+    "is_error": false,
+    "data": [
+      {
+        "number": "P00015",
+        "supplier": "Johor Glassworks Sdn Bhd",
+        "supplier_ref": null,
+        "warehouse": "DC",
+        "state": "purchase",
+        "order_date": "2026-10-19 10:00:00",
+        "amount_untaxed": 5250.0,
+        "amount_total": 5775.0,
+        "receipt_status": "full",
+        "billing_status": "to invoice",
+        "lines": [],
+        "receipts": []
+      },
+      {
+        "number": "P00012",
+        "supplier": "Selangor Coatings Sdn Bhd",
+        "supplier_ref": null,
+        "warehouse": "FAC",
+        "state": "purchase",
+        "order_date": "2026-10-18 10:00:00",
+        "amount_untaxed": 5700.0,
+        "amount_total": 5700.0,
+        "receipt_status": "full",
+        "billing_status": "to invoice",
+        "lines": [],
+        "receipts": []
+      },
+      {
+        "number": "P00011",
+        "supplier": "Johor Glassworks Sdn Bhd",
+        "supplier_ref": null,
+        "warehouse": "FAC",
+        "state": "purchase",
+        "order_date": "2026-10-17 10:00:00",
+        "amount_untaxed": 10180.0,
+        "amount_total": 10180.0,
+        "receipt_status": "full",
+        "billing_status": "to invoice",
+        "lines": [],
+        "receipts": []
+      },
+      {
+        "number": "P00010",
+        "supplier": "Penang Packaging Sdn Bhd",
+        "supplier_ref": null,
+        "warehouse": "FAC",
+        "state": "purchase",
+        "order_date": "2026-10-15 10:00:00",
+        "amount_untaxed": 8400.0,
+        "amount_total": 8400.0,
+        "receipt_status": "full",
+        "billing_status": "to invoice",
+        "lines": [],
+        "receipts": []
+      },
+      {
+        "number": "P00009",
+        "supplier": "Klang Valley Plastics Sdn Bhd",
+        "supplier_ref": null,
+        "warehouse": "FAC",
+        "state": "purchase",
+        "order_date": "2026-10-13 10:00:00",
+        "amount_untaxed": 18800.0,
+        "amount_total": 18800.0,
+        "receipt_status": "partial",
+        "billing_status": "to invoice",
+        "lines": [],
+        "receipts": []
+      },
+      {
+        "number": "P00014",
+        "supplier": "Hengfa Tableware Trading Co., Ltd.",
+        "supplier_ref": null,
+        "warehouse": "DC",
+        "state": "purchase",
+        "order_date": "2026-10-11 10:00:00",
+        "amount_untaxed": 16650.0,
+        "amount_total": 18315.0,
+        "receipt_status": "partial",
+        "billing_status": "to invoice",
+        "lines": [],
+        "receipts": []
+      },
+      {
+        "number": "P00008",
+        "supplier": "Perak Alloy Supplies Sdn Bhd",
+        "supplier_ref": null,
+        "warehouse": "FAC",
+        "state": "purchase",
+        "order_date": "2026-10-09 10:00:00",
+        "amount_untaxed": 56000.0,
+        "amount_total": 56000.0,
+        "receipt_status": "full",
+        "billing_status": "to invoice",
+        "lines": [],
+        "receipts": []
+      },
+      {
+        "number": "P00013",
+        "supplier": "Brightwave Home Appliances Co., Ltd.",
+        "supplier_ref": null,
+        "warehouse": "DC",
+        "state": "purchase",
+        "order_date": "2026-10-06 10:00:00",
+        "amount_untaxed": 58740.0,
+        "amount_total": 64614.0,
+        "receipt_status": "full",
+        "billing_status": "to invoice",
+        "lines": [],
+        "receipts": []
+      }
+    ]
+  },
+  {
+    "tool": "get_purchase_order",
+    "args": {
+      "po_number": "P00009"
+    },
+    "is_error": false,
+    "data": {
+      "number": "P00009",
+      "supplier": "Klang Valley Plastics Sdn Bhd",
+      "supplier_ref": null,
+      "warehouse": "FAC",
+      "state": "purchase",
+      "order_date": "2026-10-13 10:00:00",
+      "amount_untaxed": 18800.0,
+      "amount_total": 18800.0,
+      "receipt_status": "partial",
+      "billing_status": "to invoice",
+      "lines": [
+        {
+          "line_id": 14,
+          "sku": "RM-PP-RESIN",
+          "product": "[RM-PP-RESIN] Polypropylene Resin (food grade)",
+          "qty_ordered": 1000.0,
+          "qty_received": 800.0,
+          "qty_billed": 0.0,
+          "unit_price": 6.2,
+          "tax_percent": 0.0,
+          "uom": "kg"
+        },
+        {
+          "line_id": 15,
+          "sku": "RM-HDL-BAK",
+          "product": "[RM-HDL-BAK] Bakelite Handle",
+          "qty_ordered": 6000.0,
+          "qty_received": 4800.0,
+          "qty_billed": 0.0,
+          "unit_price": 2.1,
+          "tax_percent": 0.0,
+          "uom": "Units"
+        }
+      ],
+      "receipts": [
+        {
+          "reference": "FAC/IN/00008",
+          "state": "assigned",
+          "date_done": null
+        },
+        {
+          "reference": "FAC/IN/00007",
+          "state": "done",
+          "date_done": "2026-10-19 15:00:00"
+        }
+      ]
+    }
+  },
+  {
+    "tool": "get_purchase_order",
+    "args": {
+      "po_number": "P00014"
+    },
+    "is_error": false,
+    "data": {
+      "number": "P00014",
+      "supplier": "Hengfa Tableware Trading Co., Ltd.",
+      "supplier_ref": null,
+      "warehouse": "DC",
+      "state": "purchase",
+      "order_date": "2026-10-11 10:00:00",
+      "amount_untaxed": 16650.0,
+      "amount_total": 18315.0,
+      "receipt_status": "partial",
+      "billing_status": "to invoice",
+      "lines": [
+        {
+          "line_id": 23,
+          "sku": "TH-TW-5110",
+          "product": "[TH-TW-5110] Stainless Cutlery Set 24pc",
+          "qty_ordered": 400.0,
+          "qty_received": 320.0,
+          "qty_billed": 0.0,
+          "unit_price": 21.0,
+          "tax_percent": 10.0,
+          "uom": "Units"
+        },
+        {
+          "line_id": 24,
+          "sku": "TH-TW-5101",
+          "product": "[TH-TW-5101] Melamine Dinner Plate 10in",
+          "qty_ordered": 1500.0,
+          "qty_received": 1200.0,
+          "qty_billed": 0.0,
+          "unit_price": 3.1,
+          "tax_percent": 10.0,
+          "uom": "Units"
+        },
+        {
+          "line_id": 25,
+          "sku": "TH-TW-5102",
+          "product": "[TH-TW-5102] Melamine Bowl 6in",
+          "qty_ordered": 1500.0,
+          "qty_received": 1200.0,
+          "qty_billed": 0.0,
+          "unit_price": 2.4,
+          "tax_percent": 10.0,
+          "uom": "Units"
+        }
+      ],
+      "receipts": [
+        {
+          "reference": "DC/IN/00005",
+          "state": "assigned",
+          "date_done": null
+        },
+        {
+          "reference": "DC/IN/00004",
+          "state": "done",
+          "date_done": "2026-10-17 15:00:00"
+        }
+      ]
+    }
+  },
+  {
+    "tool": "list_manufacturing_orders",
+    "args": {},
+    "is_error": false,
+    "data": [
+      {
+        "number": "WH/MO/00005",
+        "sku": "TH-KS-4210",
+        "product": "[TH-KS-4210] Rice Dispenser 10kg",
+        "quantity": 120.0,
+        "state": "confirmed",
+        "scheduled": "2026-10-27 13:54:38",
+        "components_available": "Available"
+      },
+      {
+        "number": "WH/MO/00006",
+        "sku": "TH-CW-2421",
+        "product": "[TH-CW-2421] Stockpot 28cm with Glass Lid",
+        "quantity": 150.0,
+        "state": "draft",
+        "scheduled": "2026-10-27 13:54:38",
+        "components_available": null
+      },
+      {
+        "number": "WH/MO/00004",
+        "sku": "TH-BW-3104",
+        "product": "[TH-BW-3104] Baking Tray 40x30cm",
+        "quantity": 250.0,
+        "state": "confirmed",
+        "scheduled": "2026-10-27 13:54:37",
+        "components_available": "Available"
+      },
+      {
+        "number": "WH/MO/00003",
+        "sku": "TH-CW-2410",
+        "product": "[TH-CW-2410] Non-stick Frying Pan 24cm",
+        "quantity": 300.0,
+        "state": "confirmed",
+        "scheduled": "2026-10-27 13:54:36",
+        "components_available": "Available"
+      },
+      {
+        "number": "WH/MO/00002",
+        "sku": "TH-KS-4201",
+        "product": "[TH-KS-4201] Airtight Container 0.8L",
+        "quantity": 1500.0,
+        "state": "done",
+        "scheduled": "2026-10-27 13:54:35",
+        "components_available": null
+      },
+      {
+        "number": "WH/MO/00001",
+        "sku": "TH-CW-2401",
+        "product": "[TH-CW-2401] Cast Aluminium Wok 32cm",
+        "quantity": 200.0,
+        "state": "done",
+        "scheduled": "2026-10-27 13:54:33",
+        "components_available": null
+      }
+    ]
+  },
+  {
+    "tool": "get_bill_of_materials",
+    "args": {
+      "sku": "TH-CW-2401"
+    },
+    "is_error": false,
+    "data": [
+      {
+        "sku": "RM-AL-INGOT",
+        "component": "Aluminium Ingot A356",
+        "qty_per_unit": 1.6,
+        "uom": "kg"
+      },
+      {
+        "sku": "RM-NS-COAT",
+        "component": "Non-stick Coating (PTFE, 2-layer)",
+        "qty_per_unit": 0.05,
+        "uom": "L"
+      },
+      {
+        "sku": "RM-HDL-BAK",
+        "component": "Bakelite Handle",
+        "qty_per_unit": 2.0,
+        "uom": "Units"
+      },
+      {
+        "sku": "RM-PKG-BOX",
+        "component": "Printed Carton",
+        "qty_per_unit": 1.0,
+        "uom": "Units"
+      }
+    ]
+  },
+  {
+    "tool": "list_transfers",
+    "args": {
+      "state": "open"
+    },
+    "is_error": false,
+    "data": [
+      {
+        "reference": "DC/INT/00004",
+        "from_warehouse": "DC",
+        "to_warehouse": "KLCC",
+        "state": "assigned",
+        "scheduled": "2026-10-26 10:00:00",
+        "lines": [
+          {
+            "product": "[TH-CW-2402] Cast Aluminium Wok 36cm",
+            "quantity": 8.0,
+            "done": 8.0
+          },
+          {
+            "product": "[TH-KS-4210] Rice Dispenser 10kg",
+            "quantity": 6.0,
+            "done": 6.0
+          }
+        ]
+      }
+    ]
+  }
+]

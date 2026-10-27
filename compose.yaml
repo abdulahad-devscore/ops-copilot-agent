@@ -1,0 +1,39 @@
+# docker compose up  ->  ERP bridge stack (Odoo + seed + bridge) plus the Ops Copilot
+#   Copilot API:     http://localhost:8100/docs
+#   Approval page:   http://localhost:8000/approvals   (approver-ops / approver-ops-demo-secret)
+#
+# Needs ANTHROPIC_API_KEY in .env and erp-mcp-bridge cloned next to this repo.
+
+include:
+  - ../erp-mcp-bridge/compose.yaml
+
+services:
+  copilot-db:
+    image: ${REGISTRY:-docker.io}/pgvector/pgvector:pg16
+    environment:
+      POSTGRES_USER: copilot
+      POSTGRES_PASSWORD: ${COPILOT_DB_PASSWORD:-copilot}
+      POSTGRES_DB: copilot
+    ports: ["5434:5432"]
+    volumes: [copilot-db:/var/lib/postgresql/data]
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U copilot"]
+      interval: 5s
+      retries: 20
+
+  ops-copilot:
+    build:
+      context: .
+      args: { REGISTRY: "${REGISTRY:-docker.io}", PRELOAD_MODELS: "${PRELOAD_MODELS:-true}" }
+    env_file: [{ path: .env, required: false }]
+    environment:
+      DATABASE_URL: postgresql://copilot:${COPILOT_DB_PASSWORD:-copilot}@copilot-db:5432/copilot
+      BRIDGE_URL: http://erp-bridge:8000
+      PUBLIC_URL: http://ops-copilot:8100
+    ports: ["8100:8100"]
+    depends_on:
+      copilot-db: { condition: service_healthy }
+      erp-bridge: { condition: service_healthy }
+
+volumes:
+  copilot-db:

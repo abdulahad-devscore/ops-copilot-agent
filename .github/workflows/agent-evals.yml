@@ -1,0 +1,46 @@
+name: agent-evals
+# The full 100-case eval against real models and a live seeded ERP. Costs money, so it runs nightly,
+# on demand, and on PRs labelled "run-evals". On main it commits the results and the README badge.
+on:
+  schedule: [{ cron: "41 19 * * *" }]
+  workflow_dispatch:
+  pull_request:
+    types: [labeled]
+
+jobs:
+  evals:
+    if: github.event_name != 'pull_request' || github.event.label.name == 'run-evals'
+    runs-on: ubuntu-latest
+    timeout-minutes: 75
+    permissions: { contents: write }
+    env:
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+        with: { path: ops-copilot-agent }
+      - uses: actions/checkout@v4
+        with: { repository: "${{ github.repository_owner }}/erp-mcp-bridge", path: erp-mcp-bridge }
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: Start and seed the ERP stack
+        working-directory: erp-mcp-bridge
+        run: |
+          docker compose up -d --build --wait odoo bridge-db redis erp-bridge
+          docker compose run --rm seed
+      - name: Run evals
+        working-directory: ops-copilot-agent
+        run: |
+          pip install -e ".[dev]"
+          python -m evals.run_evals --label default
+          python -m evals.run_evals --label strong-only --cheap claude-opus-5-5
+      - uses: actions/upload-artifact@v4
+        with: { name: eval-results, path: ops-copilot-agent/evals/results }
+      - name: Commit results and badge
+        if: github.ref == 'refs/heads/main'
+        working-directory: ops-copilot-agent
+        run: |
+          git config user.name "eval-bot"
+          git config user.email "eval-bot@users.noreply.github.com"
+          git add evals/results
+          git commit -m "evals: update results" || echo "no changes"
+          git push
