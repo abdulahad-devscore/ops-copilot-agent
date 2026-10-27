@@ -1,12 +1,14 @@
 # Ops Copilot Agent
 
-[![ci](https://github.com/OWNER/ops-copilot-agent/actions/workflows/ci.yml/badge.svg)](https://github.com/OWNER/ops-copilot-agent/actions/workflows/ci.yml)
-[![evals](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/OWNER/ops-copilot-agent/main/evals/results/badge.json)](evals/results)
+[![ci](https://github.com/abdulahad-devscore/ops-copilot-agent/actions/workflows/ci.yml/badge.svg)](https://github.com/abdulahad-devscore/ops-copilot-agent/actions/workflows/ci.yml)
+[![evals](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/abdulahad-devscore/ops-copilot-agent/main/evals/results/badge.json)](evals/results)
 ![LangGraph](https://img.shields.io/badge/LangGraph-1.2-1C3C3C) ![license](https://img.shields.io/badge/license-MIT-green)
 
 **The problem.** Operations people at a manufacturer-distributor-retailer spend their day answering the same two kinds of question: "what does the policy say?" (returns, credit hold, approval limits) and "what do the numbers say?" (stock at KLCC, overdue invoices, last quarter's sales by channel). This agent answers both, with citations and live ERP data, and drafts the purchase order, transfer or production run when one is needed, which a person then approves before anything is written.
 
 > Part of a three-repo showcase for **Tembusu Housewares**, a fictional Malaysian housewares manufacturer and retailer. The agent's ERP tools come from [erp-mcp-bridge](../erp-mcp-bridge); see also [invoice-flow](../invoice-flow).
+
+![The copilot's proposals on the ERP bridge approval page, approved and written to Odoo](docs/approval-demo.gif)
 
 ## Architecture
 
@@ -94,7 +96,7 @@ curl -s localhost:8100/v1/chat -H 'content-type: application/json' \
   -d '{"question":"Which raw materials at the factory need reordering?","user":{"id":"me","role":"management"}}'
 ```
 
-API docs at http://localhost:8100/docs. Approve proposals at http://localhost:8000/approvals.
+API docs at http://localhost:8100/docs (contract in [docs/openapi.json](docs/openapi.json)). Approve proposals at http://localhost:8000/approvals.
 
 **Tracing**: set `LANGFUSE_PUBLIC_KEY`, `LANGFUSE_SECRET_KEY` and `LANGFUSE_BASE_URL` (Langfuse Cloud, or a self-hosted Langfuse from its official compose file). Each run is one trace with the classification, retrieval, every tool call and every model generation with tokens and USD cost; the trace URL is returned on the run.
 
@@ -117,4 +119,4 @@ The graph tests drive every branch with a scripted model: citations, out-of-scop
 
 ---
 
-Built by [Your Name], Backend Engineer at Devs Core — [devs-core.com](https://devs-core.com). MIT licence. All company, supplier and customer names are fictional.
+Built by Abdul Ahad, Backend Engineer at Devs Core — [devs-core.com](https://devs-core.com). MIT licence. All company, supplier and customer names are fictional.
