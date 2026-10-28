@@ -12,7 +12,15 @@ jobs:
         with: { python-version: "3.12" }
       - run: pip install -e ".[dev]"
       - run: ruff check src tests evals scripts && ruff format --check src tests evals scripts
-      - run: pytest -q tests
+      - name: pytest
+        shell: bash
+        run: |
+          set -o pipefail
+          pytest -q tests -rfE 2>&1 | tee pytest.log
+      - name: Report test failures
+        if: failure()
+        shell: bash
+        run: grep -E "^(FAILED|ERROR)|^E  |^retrieval |^  miss " pytest.log | head -20 | sed "s/^/::error::/" || true
 
   retrieval-evals:
     # Deterministic, no API key: hit@5 / MRR over the eval questions with the real embedder + reranker,
@@ -25,7 +33,15 @@ jobs:
       - uses: actions/cache@v4
         with: { path: ~/.cache/fastembed, key: fastembed-bge-small-minilm }
       - run: pip install -e ".[dev]"
-      - run: pytest -q -s evals/test_retrieval.py
-        env: { EVAL_EMBEDDER: fastembed, FASTEMBED_CACHE_PATH: ~/.cache/fastembed }
+      - name: pytest
+        shell: bash
+        run: |
+          set -o pipefail
+          pytest -q -s evals/test_retrieval.py -rfE 2>&1 | tee pytest.log
+        env: { EVAL_EMBEDDER: fastembed, FASTEMBED_CACHE_PATH: /home/runner/.cache/fastembed }
+      - name: Report test failures
+        if: failure()
+        shell: bash
+        run: grep -E "^(FAILED|ERROR)|^E  |^retrieval |^  miss " pytest.log | head -20 | sed "s/^/::error::/" || true
       - uses: actions/upload-artifact@v4
         with: { name: retrieval-results, path: evals/results/retrieval-fastembed.json }
