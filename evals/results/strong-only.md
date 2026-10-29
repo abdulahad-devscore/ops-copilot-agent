@@ -4,7 +4,7 @@
 
 - Models: classify `claude-opus-5-5`, reason `claude-opus-5-5`
 - Cost: $0.0 total, $0.0 per run
-- Latency: p50 3 ms, p95 4 ms
+- Latency: p50 6 ms, p95 9 ms
 
 | Category | Passed |
 |---|---|
