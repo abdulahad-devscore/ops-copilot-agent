@@ -4,7 +4,7 @@
 
 - Models: classify `claude-haiku-5-5`, reason `claude-opus-5-5`
 - Cost: $0.0 total, $0.0 per run
-- Latency: p50 6 ms, p95 8 ms
+- Latency: p50 4 ms, p95 6 ms
 
 | Category | Passed |
 |---|---|
