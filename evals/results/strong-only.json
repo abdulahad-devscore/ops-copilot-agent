@@ -16,7 +16,7 @@
     "total_cost_usd": 0.0,
     "mean_cost_per_run_usd": 0.0,
     "p50_latency_ms": 6,
-    "p95_latency_ms": 8,
+    "p95_latency_ms": 7,
     "embedder": "fastembed",
     "reranker": "fastembed"
   },
@@ -39,7 +39,7 @@
         ]
       },
       "result": {
-        "thread_id": "3d5fa718-e9ee-4371-b244-9f14152f4320",
+        "thread_id": "3bd71ee1-176d-4f39-a23b-1d4771dc8c1b",
         "status": "failed",
         "route": null,
         "answer": "Run failed: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for the `Authorization` header to be explicitly omitted\"",
@@ -51,7 +51,7 @@
         "cost_by_model": {},
         "input_tokens": 0,
         "output_tokens": 0,
-        "latency_ms": 32,
+        "latency_ms": 19,
         "trace_url": null
       },
       "score": {
@@ -83,7 +83,7 @@
         ]
       },
       "result": {
-        "thread_id": "bb8172f9-554d-4bec-acbb-587219539600",
+        "thread_id": "74777909-d6df-4a09-9dec-5f50f5250ae6",
         "status": "failed",
         "route": null,
         "answer": "Run failed: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for the `Authorization` header to be explicitly omitted\"",
@@ -95,7 +95,7 @@
         "cost_by_model": {},
         "input_tokens": 0,
         "output_tokens": 0,
-        "latency_ms": 29,
+        "latency_ms": 17,
         "trace_url": null
       },
       "score": {
@@ -129,7 +129,7 @@
         ]
       },
       "result": {
-        "thread_id": "156e35a6-36fb-4b45-b8ad-40ac46b3ee9a",
+        "thread_id": "c3223f3f-b72d-4911-a8bf-7177e1fdd93b",
         "status": "failed",
         "route": null,
         "answer": "Run failed: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for the `Authorization` header to be explicitly omitted\"",
@@ -141,7 +141,7 @@
         "cost_by_model": {},
         "input_tokens": 0,
         "output_tokens": 0,
-        "latency_ms": 31,
+        "latency_ms": 20,
         "trace_url": null
       },
       "score": {
@@ -177,7 +177,7 @@
         ]
       },
       "result": {
-        "thread_id": "19675853-6725-4dd0-b38b-7590791acc2b",
+        "thread_id": "122f63bb-df04-479f-ac7d-d838c026384c",
         "status": "failed",
         "route": null,
         "answer": "Run failed: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for the `Authorization` header to be explicitly omitted\"",
@@ -189,7 +189,7 @@
         "cost_by_model": {},
         "input_tokens": 0,
         "output_tokens": 0,
-        "latency_ms": 30,
+        "latency_ms": 19,
         "trace_url": null
       },
       "score": {
@@ -220,7 +220,7 @@
         ]
       },
       "result": {
-        "thread_id": "eb0cf165-add0-4820-9703-1b67a52bc87e",
+        "thread_id": "07ad5ed2-2f9d-4ef1-a492-014fafa04f0a",
         "status": "failed",
         "route": null,
         "answer": "Run failed: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for the `Authorization` header to be explicitly omitted\"",
@@ -232,7 +232,7 @@
         "cost_by_model": {},
         "input_tokens": 0,
         "output_tokens": 0,
-        "latency_ms": 8,
+        "latency_ms": 7,
         "trace_url": null
       },
       "score": {
@@ -269,7 +269,7 @@
         ]
       },
       "result": {
-        "thread_id": "fb3bcd34-d606-4a9c-a34e-6d695a289b44",
+        "thread_id": "30a486d3-5b3d-4e96-bea6-95b7b1524ccd",
         "status": "failed",
         "route": null,
         "answer": "Run failed: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for the `Authorization` header to be explicitly omitted\"",
@@ -281,7 +281,7 @@
         "cost_by_model": {},
         "input_tokens": 0,
         "output_tokens": 0,
-        "latency_ms": 7,
+        "latency_ms": 6,
         "trace_url": null
       },
       "score": {
@@ -312,7 +312,7 @@
         ]
       },
       "result": {
-        "thread_id": "91e387f4-443a-4d66-bccf-fa74d1077b47",
+        "thread_id": "2bd19f4a-f102-43e5-b531-5b4a31f95e42",
         "status": "failed",
         "route": null,
         "answer": "Run failed: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for the `Authorization` header to be explicitly omitted\"",
@@ -324,7 +324,7 @@
         "cost_by_model": {},
         "input_tokens": 0,
         "output_tokens": 0,
-        "latency_ms": 5,
+        "latency_ms": 6,
         "trace_url": null
       },
       "score": {
@@ -360,7 +360,7 @@
         ]
       },
       "result": {
-        "thread_id": "8014b253-6150-4c4e-af89-50975b203af6",
+        "thread_id": "d6a36685-7e45-4d85-a4be-6b33fcec5c1f",
         "status": "failed",
         "route": null,
         "answer": "Run failed: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for the `Authorization` header to be explicitly omitted\"",
@@ -404,7 +404,7 @@
         ]
       },
       "result": {
-        "thread_id": "f7dcfcff-4a2f-4ec2-82f7-b6d8d4f1a22d",
+        "thread_id": "78d4b8ac-b989-47b1-a767-49752ca0255d",
         "status": "failed",
         "route": null,
         "answer": "Run failed: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for the `Authorization` header to be explicitly omitted\"",
@@ -416,7 +416,7 @@
         "cost_by_model": {},
         "input_tokens": 0,
         "output_tokens": 0,
-        "latency_ms": 7,
+        "latency_ms": 6,
         "trace_url": null
       },
       "score": {
@@ -450,7 +450,7 @@
         ]
       },
       "result": {
-        "thread_id": "9fbee941-e7fb-47b8-9c88-46891dd3bf61",
+        "thread_id": "7c76eed7-1a9c-4ad2-82f5-38c7079249fe",
         "status": "failed",
         "route": null,
         "answer": "Run failed: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for the `Authorization` header to be explicitly omitted\"",
@@ -462,7 +462,7 @@
         "cost_by_model": {},
         "input_tokens": 0,
         "output_tokens": 0,
-        "latency_ms": 6,
+        "latency_ms": 5,
         "trace_url": null
       },
       "score": {
@@ -493,7 +493,7 @@
         ]
       },
       "result": {
-        "thread_id": "be755378-eeba-4a21-a096-16ea8741c506",
+        "thread_id": "8a00980e-ee2a-40eb-9472-f4eda054c406",
         "status": "failed",
         "route": null,
         "answer": "Run failed: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for the `Authorization` header to be explicitly omitted\"",
@@ -536,7 +536,7 @@
         ]
       },
       "result": {
-        "thread_id": "389a4983-cfd3-4e85-83ba-5f4b0caf29b6",
+        "thread_id": "17ad27d3-2fb8-4ddf-b666-dbd371dc4cd8",
         "status": "failed",
         "route": null,
         "answer": "Run failed: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for the `Authorization` header to be explicitly omitted\"",
@@ -582,7 +582,7 @@
         ]
       },
       "result": {
-        "thread_id": "31d76557-3933-407d-96f0-cf40581888b5",
+        "thread_id": "fd686dc6-7b13-4de2-b723-96babe86feab",
         "status": "failed",
         "route": null,
         "answer": "Run failed: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for the `Authorization` header to be explicitly omitted\"",
@@ -594,7 +594,7 @@
         "cost_by_model": {},
         "input_tokens": 0,
         "output_tokens": 0,
-        "latency_ms": 7,
+        "latency_ms": 6,
         "trace_url": null
       },
       "score": {
@@ -625,7 +625,7 @@
         ]
       },
       "result": {
-        "thread_id": "6215e1a1-af54-4757-8b38-4d0f43337cf0",
+        "thread_id": "2cc28e52-44c9-4d40-bc28-077d72dfebbc",
         "status": "failed",
         "route": null,
         "answer": "Run failed: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for the `Authorization` header to be explicitly omitted\"",
@@ -637,7 +637,7 @@
         "cost_by_model": {},
         "input_tokens": 0,
         "output_tokens": 0,
-        "latency_ms": 6,
+        "latency_ms": 5,
         "trace_url": null
       },
       "score": {
@@ -668,7 +668,7 @@
         ]
       },
       "result": {
-        "thread_id": "87a6edb6-50fc-4789-a9b8-12fdc37a63ba",
+        "thread_id": "4a645881-6f8d-423c-b61c-39db9c9bb12c",
         "status": "failed",
         "route": null,
         "answer": "Run failed: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for the `Authorization` header to be explicitly omitted\"",
@@ -713,7 +713,7 @@
         ]
       },
       "result": {
-        "thread_id": "8afde61a-e4c4-4a01-9cdd-a2cbc9428295",
+        "thread_id": "84b684d0-935b-478f-b122-5651a2717155",
         "status": "failed",
         "route": null,
         "answer": "Run failed: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for the `Authorization` header to be explicitly omitted\"",
@@ -759,7 +759,7 @@
         ]
       },
       "result": {
-        "thread_id": "a1d115f3-c771-4c8a-8229-0cfbca00790c",
+        "thread_id": "7ea5117a-14c5-414d-ae66-925c5bda75b4",
         "status": "failed",
         "route": null,
         "answer": "Run failed: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for the `Authorization` header to be explicitly omitted\"",
@@ -771,7 +771,7 @@
         "cost_by_model": {},
         "input_tokens": 0,
         "output_tokens": 0,
-        "latency_ms": 7,
+        "latency_ms": 6,
         "trace_url": null
       },
       "score": {
@@ -801,7 +801,7 @@
         ]
       },
       "result": {
-        "thread_id": "a4d9abf5-0fe8-44ea-bbae-5b0e7f7d031b",
+        "thread_id": "0344b601-8e35-43ea-a20f-eddd7f20b069",
         "status": "failed",
         "route": null,
         "answer": "Run failed: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for the `Authorization` header to be explicitly omitted\"",
@@ -813,7 +813,7 @@
         "cost_by_model": {},
         "input_tokens": 0,
         "output_tokens": 0,
-        "latency_ms": 6,
+        "latency_ms": 5,
         "trace_url": null
       },
       "score": {
@@ -847,7 +847,7 @@
         ]
       },
       "result": {
-        "thread_id": "10323540-2391-492a-a89b-223bacedf1b6",
+        "thread_id": "36bf55aa-a764-4adc-9cb1-0d070597ea50",
         "status": "failed",
         "route": null,
         "answer": "Run failed: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for the `Authorization` header to be explicitly omitted\"",
@@ -859,7 +859,7 @@
         "cost_by_model": {},
         "input_tokens": 0,
         "output_tokens": 0,
-        "latency_ms": 5,
+        "latency_ms": 6,
         "trace_url": null
       },
       "score": {
@@ -895,7 +895,7 @@
         ]
       },
       "result": {
-        "thread_id": "d303a76e-0d53-4adc-80c8-e1f8e3575653",
+        "thread_id": "dabda2d6-2cbe-4a41-a17f-6bbe483ec44d",
         "status": "failed",
         "route": null,
         "answer": "Run failed: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for the `Authorization` header to be explicitly omitted\"",
@@ -907,7 +907,7 @@
         "cost_by_model": {},
         "input_tokens": 0,
         "output_tokens": 0,
-        "latency_ms": 4,
+        "latency_ms": 5,
         "trace_url": null
       },
       "score": {
@@ -938,7 +938,7 @@
         ]
       },
       "result": {
-        "thread_id": "1acb7c44-d67e-4769-890f-598121dfd16f",
+        "thread_id": "f5dfef32-d832-4fd6-9856-3d46a7fcd1d1",
         "status": "failed",
         "route": null,
         "answer": "Run failed: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for the `Authorization` header to be explicitly omitted\"",
@@ -950,7 +950,7 @@
         "cost_by_model": {},
         "input_tokens": 0,
         "output_tokens": 0,
-        "latency_ms": 8,
+        "latency_ms": 7,
         "trace_url": null
       },
       "score": {
@@ -981,7 +981,7 @@
         ]
       },
       "result": {
-        "thread_id": "2cbab3da-ed2b-4c66-ad69-1762f4b184ae",
+        "thread_id": "009b6738-3236-49f7-815b-7a673616d57d",
         "status": "failed",
         "route": null,
         "answer": "Run failed: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for the `Authorization` header to be explicitly omitted\"",
@@ -993,7 +993,7 @@
         "cost_by_model": {},
         "input_tokens": 0,
         "output_tokens": 0,
-        "latency_ms": 7,
+        "latency_ms": 6,
         "trace_url": null
       },
       "score": {
@@ -1025,7 +1025,7 @@
         ]
       },
       "result": {
-        "thread_id": "781f37a5-eb2e-46b3-835b-4510df7451ab",
+        "thread_id": "f91a870f-4ed3-4b72-bda4-ec33938ba132",
         "status": "failed",
         "route": null,
         "answer": "Run failed: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for the `Authorization` header to be explicitly omitted\"",
@@ -1037,7 +1037,7 @@
         "cost_by_model": {},
         "input_tokens": 0,
         "output_tokens": 0,
-        "latency_ms": 6,
+        "latency_ms": 7,
         "trace_url": null
       },
       "score": {
@@ -1067,7 +1067,7 @@
         ]
       },
       "result": {
-        "thread_id": "66b37ec6-68c8-4e18-a230-22da1af145dd",
+        "thread_id": "674a78a1-4ca2-409a-8317-5c92d4cda0a5",
         "status": "failed",
         "route": null,
         "answer": "Run failed: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for the `Authorization` header to be explicitly omitted\"",
@@ -1079,7 +1079,7 @@
         "cost_by_model": {},
         "input_tokens": 0,
         "output_tokens": 0,
-        "latency_ms": 5,
+        "latency_ms": 6,
         "trace_url": null
       },
       "score": {
@@ -1112,7 +1112,7 @@
         ]
       },
       "result": {
-        "thread_id": "12094cf3-89d4-4921-b94e-a15840c74e7d",
+        "thread_id": "70285db5-5118-4396-b331-ae514c3c4569",
         "status": "failed",
         "route": null,
         "answer": "Run failed: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for the `Authorization` header to be explicitly omitted\"",
@@ -1155,7 +1155,7 @@
         ]
       },
       "result": {
-        "thread_id": "a55ee510-bc56-4fb1-bacc-b73b28d83105",
+        "thread_id": "81ec1cf7-4bd8-4666-86cd-94196de173d7",
         "status": "failed",
         "route": null,
         "answer": "Run failed: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for the `Authorization` header to be explicitly omitted\"",
@@ -1197,7 +1197,7 @@
         ]
       },
       "result": {
-        "thread_id": "b7ac4794-e129-43d9-95fc-ec3e47b68c5b",
+        "thread_id": "61135e06-7b3e-4010-8903-07e3c8a424ff",
         "status": "failed",
         "route": null,
         "answer": "Run failed: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for the `Authorization` header to be explicitly omitted\"",
@@ -1209,7 +1209,7 @@
         "cost_by_model": {},
         "input_tokens": 0,
         "output_tokens": 0,
-        "latency_ms": 5,
+        "latency_ms": 6,
         "trace_url": null
       },
       "score": {
@@ -1241,7 +1241,7 @@
         ]
       },
       "result": {
-        "thread_id": "fa9ae192-a8cf-404b-9d98-572c001a4546",
+        "thread_id": "085b19d3-5c53-4f31-ba4c-26e4d6d82b77",
         "status": "failed",
         "route": null,
         "answer": "Run failed: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for the `Authorization` header to be explicitly omitted\"",
@@ -1253,7 +1253,7 @@
         "cost_by_model": {},
         "input_tokens": 0,
         "output_tokens": 0,
-        "latency_ms": 4,
+        "latency_ms": 5,
         "trace_url": null
       },
       "score": {
@@ -1286,7 +1286,7 @@
         ]
       },
       "result": {
-        "thread_id": "bbd6d1cb-6686-4894-a522-a78389405b11",
+        "thread_id": "df7fb21c-9c62-4eee-aff7-0015f9de09a8",
         "status": "failed",
         "route": null,
         "answer": "Run failed: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for the `Authorization` header to be explicitly omitted\"",
@@ -1330,7 +1330,7 @@
         ]
       },
       "result": {
-        "thread_id": "46ea44bd-adbf-495a-96ad-653127e1e43d",
+        "thread_id": "79839c50-4132-4b7d-bca6-12f2808f5126",
         "status": "failed",
         "route": null,
         "answer": "Run failed: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for the `Authorization` header to be explicitly omitted\"",
@@ -1379,7 +1379,7 @@
         ]
       },
       "result": {
-        "thread_id": "b6bbe630-eee8-44c1-8766-d68fafe7784c",
+        "thread_id": "6391da75-a129-464e-a269-ace827d44245",
         "status": "failed",
         "route": null,
         "answer": "Run failed: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for the `Authorization` header to be explicitly omitted\"",
@@ -1391,7 +1391,7 @@
         "cost_by_model": {},
         "input_tokens": 0,
         "output_tokens": 0,
-        "latency_ms": 5,
+        "latency_ms": 6,
         "trace_url": null
       },
       "score": {
@@ -1424,7 +1424,7 @@
         ]
       },
       "result": {
-        "thread_id": "17fa64fd-6904-4065-b034-f91704d5e649",
+        "thread_id": "c892349b-d099-497a-aee8-6e0ce242dbd7",
         "status": "failed",
         "route": null,
         "answer": "Run failed: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for the `Authorization` header to be explicitly omitted\"",
@@ -1436,7 +1436,7 @@
         "cost_by_model": {},
         "input_tokens": 0,
         "output_tokens": 0,
-        "latency_ms": 4,
+        "latency_ms": 5,
         "trace_url": null
       },
       "score": {
@@ -1466,7 +1466,7 @@
         ]
       },
       "result": {
-        "thread_id": "0a95db69-421e-4b2f-a6c8-abd12eecb77f",
+        "thread_id": "94a153d2-98b4-43e5-b8fd-8183c41bdcd7",
         "status": "failed",
         "route": null,
         "answer": "Run failed: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for the `Authorization` header to be explicitly omitted\"",
@@ -1513,7 +1513,7 @@
         ]
       },
       "result": {
-        "thread_id": "bdea6bed-1a8b-4a89-8acf-e604693df3c3",
+        "thread_id": "0ef2670c-6652-4953-8264-4b20063d6df8",
         "status": "failed",
         "route": null,
         "answer": "Run failed: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for the `Authorization` header to be explicitly omitted\"",
@@ -1558,7 +1558,7 @@
         ]
       },
       "result": {
-        "thread_id": "604bffa7-4a4c-4cc0-8aa1-3b7b58c7a97c",
+        "thread_id": "c21a9312-0229-4574-841c-f4f53df3a87c",
         "status": "failed",
         "route": null,
         "answer": "Run failed: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for the `Authorization` header to be explicitly omitted\"",
@@ -1570,7 +1570,7 @@
         "cost_by_model": {},
         "input_tokens": 0,
         "output_tokens": 0,
-        "latency_ms": 5,
+        "latency_ms": 6,
         "trace_url": null
       },
       "score": {
@@ -1606,7 +1606,7 @@
         ]
       },
       "result": {
-        "thread_id": "a584d857-56ab-4168-803f-a944b6b3ae05",
+        "thread_id": "41281c89-2d7f-4c05-ac03-4300a1ced765",
         "status": "failed",
         "route": null,
         "answer": "Run failed: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for the `Authorization` header to be explicitly omitted\"",
@@ -1649,7 +1649,7 @@
         ]
       },
       "result": {
-        "thread_id": "fbc4dffe-ce70-491e-8a42-46c00fb3c3f5",
+        "thread_id": "fc5ef75a-f482-4003-94bd-536a5bc7eee8",
         "status": "failed",
         "route": null,
         "answer": "Run failed: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for the `Authorization` header to be explicitly omitted\"",
@@ -1661,7 +1661,7 @@
         "cost_by_model": {},
         "input_tokens": 0,
         "output_tokens": 0,
-        "latency_ms": 7,
+        "latency_ms": 6,
         "trace_url": null
       },
       "score": {
@@ -1694,7 +1694,7 @@
         ]
       },
       "result": {
-        "thread_id": "3998cac6-4768-43f3-b335-244060849d5f",
+        "thread_id": "bf3a2642-a751-45ad-8d19-24cff2a65064",
         "status": "failed",
         "route": null,
         "answer": "Run failed: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for the `Authorization` header to be explicitly omitted\"",
@@ -1706,7 +1706,7 @@
         "cost_by_model": {},
         "input_tokens": 0,
         "output_tokens": 0,
-        "latency_ms": 6,
+        "latency_ms": 5,
         "trace_url": null
       },
       "score": {
@@ -1739,7 +1739,7 @@
         ]
       },
       "result": {
-        "thread_id": "4b38114d-ed5f-4723-8153-d45891e87334",
+        "thread_id": "d4ccffee-63a6-42e4-b209-5ed3bcd89884",
         "status": "failed",
         "route": null,
         "answer": "Run failed: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for the `Authorization` header to be explicitly omitted\"",
@@ -1786,7 +1786,7 @@
         ]
       },
       "result": {
-        "thread_id": "27b57ae6-9696-49e6-965d-fa2b5f94d9c4",
+        "thread_id": "e3ba17c8-374d-441a-969c-a89953d65600",
         "status": "failed",
         "route": null,
         "answer": "Run failed: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for the `Authorization` header to be explicitly omitted\"",
@@ -1828,7 +1828,7 @@
         ]
       },
       "result": {
-        "thread_id": "df062821-c4b1-4a0b-a91f-2ff8505a516b",
+        "thread_id": "e327947e-8d75-4ba7-b07b-b4a653ec493e",
         "status": "failed",
         "route": null,
         "answer": "Run failed: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for the `Authorization` header to be explicitly omitted\"",
@@ -1840,7 +1840,7 @@
         "cost_by_model": {},
         "input_tokens": 0,
         "output_tokens": 0,
-        "latency_ms": 8,
+        "latency_ms": 7,
         "trace_url": null
       },
       "score": {
@@ -1874,7 +1874,7 @@
         ]
       },
       "result": {
-        "thread_id": "0d24b791-4a35-486b-ba23-0db4129f5bb5",
+        "thread_id": "7a75987b-fa99-412a-833e-f66d83199694",
         "status": "failed",
         "route": null,
         "answer": "Run failed: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for the `Authorization` header to be explicitly omitted\"",
@@ -1886,7 +1886,7 @@
         "cost_by_model": {},
         "input_tokens": 0,
         "output_tokens": 0,
-        "latency_ms": 7,
+        "latency_ms": 6,
         "trace_url": null
       },
       "score": {
@@ -1918,7 +1918,7 @@
         ]
       },
       "result": {
-        "thread_id": "590f3326-b9a7-48fb-ba4e-f5e680f61967",
+        "thread_id": "b3908885-45aa-43fa-9cd8-2e91028ef98c",
         "status": "failed",
         "route": null,
         "answer": "Run failed: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for the `Authorization` header to be explicitly omitted\"",
@@ -1930,7 +1930,7 @@
         "cost_by_model": {},
         "input_tokens": 0,
         "output_tokens": 0,
-        "latency_ms": 5,
+        "latency_ms": 6,
         "trace_url": null
       },
       "score": {
@@ -1967,7 +1967,7 @@
         ]
       },
       "result": {
-        "thread_id": "7eca62f8-1d8a-4a61-bd9b-a23e713467bc",
+        "thread_id": "bc01e811-e2a6-4c7c-a60c-36c1bc4b6276",
         "status": "failed",
         "route": null,
         "answer": "Run failed: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for the `Authorization` header to be explicitly omitted\"",
@@ -1979,7 +1979,7 @@
         "cost_by_model": {},
         "input_tokens": 0,
         "output_tokens": 0,
-        "latency_ms": 4,
+        "latency_ms": 5,
         "trace_url": null
       },
       "score": {
@@ -2016,7 +2016,7 @@
         ]
       },
       "result": {
-        "thread_id": "df8bf599-36db-4d65-a6c8-715530f1510a",
+        "thread_id": "e86ada13-635d-4709-8b8b-b22238ba2000",
         "status": "failed",
         "route": null,
         "answer": "Run failed: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for the `Authorization` header to be explicitly omitted\"",
@@ -2065,7 +2065,7 @@
         ]
       },
       "result": {
-        "thread_id": "3d01b9e1-02c3-47ba-a62a-d507aff3a5ea",
+        "thread_id": "dbdc292d-3c63-407e-bd12-4c222cb6c1c9",
         "status": "failed",
         "route": null,
         "answer": "Run failed: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for the `Authorization` header to be explicitly omitted\"",
@@ -2110,7 +2110,7 @@
         ]
       },
       "result": {
-        "thread_id": "47f6799d-28b3-4d43-81c8-b821603a5278",
+        "thread_id": "587f1e35-7137-439a-a1f5-27df50130e8d",
         "status": "failed",
         "route": null,
         "answer": "Run failed: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for the `Authorization` header to be explicitly omitted\"",
@@ -2122,7 +2122,7 @@
         "cost_by_model": {},
         "input_tokens": 0,
         "output_tokens": 0,
-        "latency_ms": 5,
+        "latency_ms": 6,
         "trace_url": null
       },
       "score": {
@@ -2161,7 +2161,7 @@
         ]
       },
       "result": {
-        "thread_id": "a4811c85-820e-4019-b430-a3fd2abf068f",
+        "thread_id": "51589d58-2884-4cf9-ba06-e446574db117",
         "status": "failed",
         "route": null,
         "answer": "Run failed: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for the `Authorization` header to be explicitly omitted\"",
@@ -2173,7 +2173,7 @@
         "cost_by_model": {},
         "input_tokens": 0,
         "output_tokens": 0,
-        "latency_ms": 4,
+        "latency_ms": 5,
         "trace_url": null
       },
       "score": {
@@ -2212,7 +2212,7 @@
         ]
       },
       "result": {
-        "thread_id": "b4dbf7b3-11cf-445f-b766-a4a21cec5b89",
+        "thread_id": "133fdc91-4672-4257-b28f-655db9ab5219",
         "status": "failed",
         "route": null,
         "answer": "Run failed: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for the `Authorization` header to be explicitly omitted\"",
@@ -2256,7 +2256,7 @@
         ]
       },
       "result": {
-        "thread_id": "dcd11a73-9b4d-4560-b1fd-4bf9300a358f",
+        "thread_id": "a217c124-3d9a-42b7-b865-7f8e52e1278c",
         "status": "failed",
         "route": null,
         "answer": "Run failed: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for the `Authorization` header to be explicitly omitted\"",
@@ -2302,7 +2302,7 @@
         ]
       },
       "result": {
-        "thread_id": "1fe1635c-1bb8-4ab3-841a-c0011dabfeef",
+        "thread_id": "779c2125-b5fd-42ab-b31d-bac7f20f3161",
         "status": "failed",
         "route": null,
         "answer": "Run failed: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for the `Authorization` header to be explicitly omitted\"",
@@ -2314,7 +2314,7 @@
         "cost_by_model": {},
         "input_tokens": 0,
         "output_tokens": 0,
-        "latency_ms": 5,
+        "latency_ms": 6,
         "trace_url": null
       },
       "score": {
@@ -2348,7 +2348,7 @@
         ]
       },
       "result": {
-        "thread_id": "218ae86a-aeb0-4fc5-8f9c-5f77dbd6aef9",
+        "thread_id": "23c9a3b9-4761-4ada-a78a-01ca4c4a77b6",
         "status": "failed",
         "route": null,
         "answer": "Run failed: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for the `Authorization` header to be explicitly omitted\"",
@@ -2360,7 +2360,7 @@
         "cost_by_model": {},
         "input_tokens": 0,
         "output_tokens": 0,
-        "latency_ms": 4,
+        "latency_ms": 5,
         "trace_url": null
       },
       "score": {
@@ -2404,7 +2404,7 @@
         ]
       },
       "result": {
-        "thread_id": "f1882ca8-fcde-411f-b602-e34445169b93",
+        "thread_id": "02b9c1d0-4fdd-437c-a4a2-f9f45ded72b9",
         "status": "failed",
         "route": null,
         "answer": "Run failed: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for the `Authorization` header to be explicitly omitted\"",
@@ -2416,7 +2416,7 @@
         "cost_by_model": {},
         "input_tokens": 0,
         "output_tokens": 0,
-        "latency_ms": 7,
+        "latency_ms": 6,
         "trace_url": null
       },
       "score": {
@@ -2450,7 +2450,7 @@
         ]
       },
       "result": {
-        "thread_id": "81890282-5c1c-4bf3-88be-803538245481",
+        "thread_id": "2813dd64-3f9e-4c7d-9b13-23d7a0a6727b",
         "status": "failed",
         "route": null,
         "answer": "Run failed: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for the `Authorization` header to be explicitly omitted\"",
@@ -2462,7 +2462,7 @@
         "cost_by_model": {},
         "input_tokens": 0,
         "output_tokens": 0,
-        "latency_ms": 6,
+        "latency_ms": 5,
         "trace_url": null
       },
       "score": {
@@ -2492,7 +2492,7 @@
         ]
       },
       "result": {
-        "thread_id": "1c71a3cc-f480-4e70-833b-f0fa271b0b4a",
+        "thread_id": "b33dad8e-6fe3-4d7b-9197-a686896c68e7",
         "status": "failed",
         "route": null,
         "answer": "Run failed: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for the `Authorization` header to be explicitly omitted\"",
@@ -2537,7 +2537,7 @@
         ]
       },
       "result": {
-        "thread_id": "44a1933f-1cee-4924-b8f9-f7e71df77d22",
+        "thread_id": "546c3867-fb58-4abd-bc96-3aea230e9ce5",
         "status": "failed",
         "route": null,
         "answer": "Run failed: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for the `Authorization` header to be explicitly omitted\"",
@@ -2579,7 +2579,7 @@
         ]
       },
       "result": {
-        "thread_id": "1694c910-07d1-40ed-b1ee-9ff65bebac41",
+        "thread_id": "d96296fe-2752-45c5-8b5f-e5f3c7cd7f89",
         "status": "failed",
         "route": null,
         "answer": "Run failed: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for the `Authorization` header to be explicitly omitted\"",
@@ -2591,7 +2591,7 @@
         "cost_by_model": {},
         "input_tokens": 0,
         "output_tokens": 0,
-        "latency_ms": 8,
+        "latency_ms": 7,
         "trace_url": null
       },
       "score": {
@@ -2624,7 +2624,7 @@
         ]
       },
       "result": {
-        "thread_id": "5af68602-cdaf-4958-8a12-867e0d26c2aa",
+        "thread_id": "59417c0c-405c-4f2f-8c1f-602c79589630",
         "status": "failed",
         "route": null,
         "answer": "Run failed: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for the `Authorization` header to be explicitly omitted\"",
@@ -2636,7 +2636,7 @@
         "cost_by_model": {},
         "input_tokens": 0,
         "output_tokens": 0,
-        "latency_ms": 7,
+        "latency_ms": 6,
         "trace_url": null
       },
       "score": {
@@ -2670,7 +2670,7 @@
         ]
       },
       "result": {
-        "thread_id": "7edd5c3e-35b0-48d9-b3ec-545e0c7f252a",
+        "thread_id": "cd3fd1a5-3b7b-4b8a-b2df-79900a48a99d",
         "status": "failed",
         "route": null,
         "answer": "Run failed: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for the `Authorization` header to be explicitly omitted\"",
@@ -2715,7 +2715,7 @@
         ]
       },
       "result": {
-        "thread_id": "bb02953d-a182-4a7c-9fc2-46c5449fd691",
+        "thread_id": "ee15d008-ab39-4e8d-b8b2-c48dd5c06cd9",
         "status": "failed",
         "route": null,
         "answer": "Run failed: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for the `Authorization` header to be explicitly omitted\"",
@@ -2768,7 +2768,7 @@
         ]
       },
       "result": {
-        "thread_id": "c5e779f6-2340-4b64-b330-a00e42b04766",
+        "thread_id": "6a9de579-2be1-44ad-ba77-cb0ce58b617a",
         "status": "failed",
         "route": null,
         "answer": "Run failed: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for the `Authorization` header to be explicitly omitted\"",
@@ -2810,7 +2810,7 @@
         ]
       },
       "result": {
-        "thread_id": "33bd33ff-38e8-4d86-a920-636cc10bc608",
+        "thread_id": "a71ef24e-c487-4a32-aed6-8663d8c7bb9f",
         "status": "failed",
         "route": null,
         "answer": "Run failed: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for the `Authorization` header to be explicitly omitted\"",
@@ -2863,7 +2863,7 @@
         ]
       },
       "result": {
-        "thread_id": "d0a4f3ca-d2d8-4e27-b8b0-416ec35670bd",
+        "thread_id": "f54e5085-ae26-4180-91b8-174300d2265a",
         "status": "failed",
         "route": null,
         "answer": "Run failed: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for the `Authorization` header to be explicitly omitted\"",
@@ -2875,7 +2875,7 @@
         "cost_by_model": {},
         "input_tokens": 0,
         "output_tokens": 0,
-        "latency_ms": 5,
+        "latency_ms": 6,
         "trace_url": null
       },
       "score": {
@@ -2905,7 +2905,7 @@
         ]
       },
       "result": {
-        "thread_id": "a37055b8-4fe6-4af4-8ab5-b005b4f6bba9",
+        "thread_id": "b8b2bdb2-9cbd-4337-827f-8f49a70ba24b",
         "status": "failed",
         "route": null,
         "answer": "Run failed: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for the `Authorization` header to be explicitly omitted\"",
@@ -2917,7 +2917,7 @@
         "cost_by_model": {},
         "input_tokens": 0,
         "output_tokens": 0,
-        "latency_ms": 4,
+        "latency_ms": 5,
         "trace_url": null
       },
       "score": {
@@ -2952,7 +2952,7 @@
         ]
       },
       "result": {
-        "thread_id": "88fe292d-b5bd-4b6f-a2ab-a17ca731ff8d",
+        "thread_id": "7fa3b34d-a5ef-4b2b-ab37-261c7d7457b5",
         "status": "failed",
         "route": null,
         "answer": "Run failed: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for the `Authorization` header to be explicitly omitted\"",
@@ -3003,7 +3003,7 @@
         }
       },
       "result": {
-        "thread_id": "8e42ea10-8897-461f-a5b3-c8bea4f32f88",
+        "thread_id": "043e5d05-f114-462e-a83f-60cdf3a6879c",
         "status": "failed",
         "route": null,
         "answer": "Run failed: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for the `Authorization` header to be explicitly omitted\"",
@@ -3015,7 +3015,7 @@
         "cost_by_model": {},
         "input_tokens": 0,
         "output_tokens": 0,
-        "latency_ms": 6,
+        "latency_ms": 5,
         "trace_url": null
       },
       "score": {
@@ -3051,7 +3051,7 @@
         }
       },
       "result": {
-        "thread_id": "a22a2f65-39e1-4c3e-a5e7-4f880f950d51",
+        "thread_id": "801b40e4-2a74-45a0-af8a-7629ddfed6a9",
         "status": "failed",
         "route": null,
         "answer": "Run failed: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for the `Authorization` header to be explicitly omitted\"",
@@ -3063,7 +3063,7 @@
         "cost_by_model": {},
         "input_tokens": 0,
         "output_tokens": 0,
-        "latency_ms": 5,
+        "latency_ms": 6,
         "trace_url": null
       },
       "score": {
@@ -3101,7 +3101,7 @@
         }
       },
       "result": {
-        "thread_id": "67953c12-cb6b-4e4b-8d1a-dd919bb0efce",
+        "thread_id": "8acfd772-de73-4af5-afdd-5d06daa77808",
         "status": "failed",
         "route": null,
         "answer": "Run failed: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for the `Authorization` header to be explicitly omitted\"",
@@ -3113,7 +3113,7 @@
         "cost_by_model": {},
         "input_tokens": 0,
         "output_tokens": 0,
-        "latency_ms": 4,
+        "latency_ms": 5,
         "trace_url": null
       },
       "score": {
@@ -3150,7 +3150,7 @@
         }
       },
       "result": {
-        "thread_id": "54559673-2581-4f14-94bb-89a6305fe3c2",
+        "thread_id": "4a402f28-9f5a-459a-a2f3-9907fee60ce9",
         "status": "failed",
         "route": null,
         "answer": "Run failed: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for the `Authorization` header to be explicitly omitted\"",
@@ -3192,7 +3192,7 @@
         }
       },
       "result": {
-        "thread_id": "5c5ad100-b26e-40f3-8e21-4e40f29158be",
+        "thread_id": "d506b29e-fef1-428e-bd3d-2d49a178a0ae",
         "status": "failed",
         "route": null,
         "answer": "Run failed: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for the `Authorization` header to be explicitly omitted\"",
@@ -3234,7 +3234,7 @@
         }
       },
       "result": {
-        "thread_id": "fd260f8d-e114-4b8c-9169-7db0c39568ec",
+        "thread_id": "5a523856-dce9-40d0-93c9-cb41d57c3100",
         "status": "failed",
         "route": null,
         "answer": "Run failed: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for the `Authorization` header to be explicitly omitted\"",
@@ -3246,7 +3246,7 @@
         "cost_by_model": {},
         "input_tokens": 0,
         "output_tokens": 0,
-        "latency_ms": 5,
+        "latency_ms": 6,
         "trace_url": null
       },
       "score": {
@@ -3281,7 +3281,7 @@
         }
       },
       "result": {
-        "thread_id": "f5dcda30-37e9-4ac2-9227-57aef7804cd1",
+        "thread_id": "d11d0b2b-8c6d-4a56-87c0-746f795a2b5f",
         "status": "failed",
         "route": null,
         "answer": "Run failed: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for the `Authorization` header to be explicitly omitted\"",
@@ -3293,7 +3293,7 @@
         "cost_by_model": {},
         "input_tokens": 0,
         "output_tokens": 0,
-        "latency_ms": 4,
+        "latency_ms": 5,
         "trace_url": null
       },
       "score": {
@@ -3329,7 +3329,7 @@
         }
       },
       "result": {
-        "thread_id": "8700d0fa-ed97-48c8-9d82-ecf57211695d",
+        "thread_id": "89f12ee4-a3a0-48ee-adbd-086d2d450aa2",
         "status": "failed",
         "route": null,
         "answer": "Run failed: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for the `Authorization` header to be explicitly omitted\"",
@@ -3376,7 +3376,7 @@
         }
       },
       "result": {
-        "thread_id": "948c9aa9-02a2-4ebf-9dcd-1e1220977dd5",
+        "thread_id": "e50832f0-f628-4af1-9697-5bc5f2293735",
         "status": "failed",
         "route": null,
         "answer": "Run failed: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for the `Authorization` header to be explicitly omitted\"",
@@ -3419,7 +3419,7 @@
         ]
       },
       "result": {
-        "thread_id": "8e1fdd69-6cf5-404f-a8f4-9a8bbd983945",
+        "thread_id": "53fb5056-447c-4898-a3b2-7d469207b7aa",
         "status": "failed",
         "route": null,
         "answer": "Run failed: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for the `Authorization` header to be explicitly omitted\"",
@@ -3431,7 +3431,7 @@
         "cost_by_model": {},
         "input_tokens": 0,
         "output_tokens": 0,
-        "latency_ms": 5,
+        "latency_ms": 6,
         "trace_url": null
       },
       "score": {
@@ -3464,7 +3464,7 @@
         ]
       },
       "result": {
-        "thread_id": "339d35c2-cf30-4668-b24b-acb4e04dcf65",
+        "thread_id": "1d61641e-0d21-4087-917e-59b515fd667e",
         "status": "failed",
         "route": null,
         "answer": "Run failed: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for the `Authorization` header to be explicitly omitted\"",
@@ -3508,7 +3508,7 @@
         ]
       },
       "result": {
-        "thread_id": "4b175652-9d24-4c66-8585-30e708293882",
+        "thread_id": "1d91c9e8-9380-46b7-8e4d-2e34594d697f",
         "status": "failed",
         "route": null,
         "answer": "Run failed: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for the `Authorization` header to be explicitly omitted\"",
@@ -3520,7 +3520,7 @@
         "cost_by_model": {},
         "input_tokens": 0,
         "output_tokens": 0,
-        "latency_ms": 8,
+        "latency_ms": 7,
         "trace_url": null
       },
       "score": {
@@ -3557,7 +3557,7 @@
         }
       },
       "result": {
-        "thread_id": "d24660b0-3ec6-4f65-914d-2e662dbaface",
+        "thread_id": "99768832-6f5f-4350-a496-42c625becf96",
         "status": "failed",
         "route": null,
         "answer": "Run failed: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for the `Authorization` header to be explicitly omitted\"",
@@ -3569,7 +3569,7 @@
         "cost_by_model": {},
         "input_tokens": 0,
         "output_tokens": 0,
-        "latency_ms": 7,
+        "latency_ms": 6,
         "trace_url": null
       },
       "score": {
@@ -3595,7 +3595,7 @@
         ]
       },
       "result": {
-        "thread_id": "a7a3cffb-70ce-45b0-b356-32b8cbbac9de",
+        "thread_id": "bd891b99-1353-4a84-8ffc-1275ef5a63ae",
         "status": "failed",
         "route": null,
         "answer": "Run failed: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for the `Authorization` header to be explicitly omitted\"",
@@ -3643,7 +3643,7 @@
         }
       },
       "result": {
-        "thread_id": "06167a61-ee92-427c-bdf9-5e85a959afe3",
+        "thread_id": "1d8f72c7-1fc3-4b8b-98f3-5b20e25daf08",
         "status": "failed",
         "route": null,
         "answer": "Run failed: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for the `Authorization` header to be explicitly omitted\"",
@@ -3655,7 +3655,7 @@
         "cost_by_model": {},
         "input_tokens": 0,
         "output_tokens": 0,
-        "latency_ms": 4,
+        "latency_ms": 5,
         "trace_url": null
       },
       "score": {
@@ -3682,7 +3682,7 @@
         ]
       },
       "result": {
-        "thread_id": "5d0fa96b-e846-4e37-a7bc-ad8fda2488f9",
+        "thread_id": "8bd2de14-a860-4209-90a0-e0ad5495361b",
         "status": "failed",
         "route": null,
         "answer": "Run failed: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for the `Authorization` header to be explicitly omitted\"",
@@ -3726,7 +3726,7 @@
         ]
       },
       "result": {
-        "thread_id": "639736c8-5e44-4acc-8419-3091078c3850",
+        "thread_id": "7ddbf4ce-c6b9-44c7-b7c1-9d625bcf6341",
         "status": "failed",
         "route": null,
         "answer": "Run failed: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for the `Authorization` header to be explicitly omitted\"",
@@ -3764,7 +3764,7 @@
         ]
       },
       "result": {
-        "thread_id": "07e192f8-84c1-4c53-ac5c-dc36e5ba2818",
+        "thread_id": "0ca9ad6b-9a3d-470a-bcfe-b5538ca1d836",
         "status": "failed",
         "route": null,
         "answer": "Run failed: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for the `Authorization` header to be explicitly omitted\"",
@@ -3776,7 +3776,7 @@
         "cost_by_model": {},
         "input_tokens": 0,
         "output_tokens": 0,
-        "latency_ms": 5,
+        "latency_ms": 6,
         "trace_url": null
       },
       "score": {
@@ -3805,7 +3805,7 @@
         ]
       },
       "result": {
-        "thread_id": "497fbd28-8bc7-45d0-966d-528fcd258f7a",
+        "thread_id": "22f6d2fa-fe00-428d-ab26-84ded8ba5862",
         "status": "failed",
         "route": null,
         "answer": "Run failed: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for the `Authorization` header to be explicitly omitted\"",
@@ -3817,7 +3817,7 @@
         "cost_by_model": {},
         "input_tokens": 0,
         "output_tokens": 0,
-        "latency_ms": 4,
+        "latency_ms": 5,
         "trace_url": null
       },
       "score": {
@@ -3844,7 +3844,7 @@
         ]
       },
       "result": {
-        "thread_id": "9451f8dc-e10f-460a-851f-b2a205f2ef59",
+        "thread_id": "8713f6c7-7d38-47bc-90b7-b1316b4fadf7",
         "status": "failed",
         "route": null,
         "answer": "Run failed: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for the `Authorization` header to be explicitly omitted\"",
@@ -3888,7 +3888,7 @@
         ]
       },
       "result": {
-        "thread_id": "6ba819a2-5630-42f6-a789-f0a18b739578",
+        "thread_id": "28438bdb-ee61-4135-a209-5b7c21cece9b",
         "status": "failed",
         "route": null,
         "answer": "Run failed: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for the `Authorization` header to be explicitly omitted\"",
@@ -3937,7 +3937,7 @@
         ]
       },
       "result": {
-        "thread_id": "f33cac55-0590-4880-b04a-d112f54a5959",
+        "thread_id": "1a49c593-6cb1-4b19-a530-a9bb2a3acff5",
         "status": "failed",
         "route": null,
         "answer": "Run failed: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for the `Authorization` header to be explicitly omitted\"",
@@ -3986,7 +3986,7 @@
         ]
       },
       "result": {
-        "thread_id": "9c666fcd-de0b-4f8c-8c2f-02b29c260e98",
+        "thread_id": "9ccc6faa-5178-4ecf-b0bc-22e94de9005f",
         "status": "failed",
         "route": null,
         "answer": "Run failed: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for the `Authorization` header to be explicitly omitted\"",
@@ -4028,7 +4028,7 @@
         ]
       },
       "result": {
-        "thread_id": "19efcf47-73f2-42b2-ba4f-73df36ca2905",
+        "thread_id": "3d0d3da5-89f4-47d3-b7e2-0547cb97562b",
         "status": "failed",
         "route": null,
         "answer": "Run failed: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for the `Authorization` header to be explicitly omitted\"",
@@ -4067,7 +4067,7 @@
         ]
       },
       "result": {
-        "thread_id": "cd33528b-5129-41cd-8b35-57075c64f890",
+        "thread_id": "9534db3e-b149-4038-96ea-7c226e96f68c",
         "status": "failed",
         "route": null,
         "answer": "Run failed: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for the `Authorization` header to be explicitly omitted\"",
@@ -4079,7 +4079,7 @@
         "cost_by_model": {},
         "input_tokens": 0,
         "output_tokens": 0,
-        "latency_ms": 6,
+        "latency_ms": 5,
         "trace_url": null
       },
       "score": {
@@ -4101,7 +4101,7 @@
         "route": "out_of_scope"
       },
       "result": {
-        "thread_id": "cd3e2c25-6cfb-419f-a851-ff9fe1c8a1c1",
+        "thread_id": "f1465642-7fb1-4ad6-8d6f-7a7d344b4b6a",
         "status": "failed",
         "route": null,
         "answer": "Run failed: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for the `Authorization` header to be explicitly omitted\"",
@@ -4113,7 +4113,7 @@
         "cost_by_model": {},
         "input_tokens": 0,
         "output_tokens": 0,
-        "latency_ms": 5,
+        "latency_ms": 6,
         "trace_url": null
       },
       "score": {
@@ -4135,7 +4135,7 @@
         "route": "out_of_scope"
       },
       "result": {
-        "thread_id": "d521eb9d-f598-4d72-9917-d6a01902eb7a",
+        "thread_id": "56af6469-fbf0-444a-9242-02aac606c93d",
         "status": "failed",
         "route": null,
         "answer": "Run failed: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for the `Authorization` header to be explicitly omitted\"",
@@ -4147,7 +4147,7 @@
         "cost_by_model": {},
         "input_tokens": 0,
         "output_tokens": 0,
-        "latency_ms": 4,
+        "latency_ms": 5,
         "trace_url": null
       },
       "score": {
@@ -4173,7 +4173,7 @@
         ]
       },
       "result": {
-        "thread_id": "a6e7a20a-bae4-4218-ac08-aad659f9054e",
+        "thread_id": "55dd6cd7-7fb3-4cbe-9647-106cba356c1d",
         "status": "failed",
         "route": null,
         "answer": "Run failed: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for the `Authorization` header to be explicitly omitted\"",
@@ -4208,7 +4208,7 @@
         "route": "out_of_scope"
       },
       "result": {
-        "thread_id": "97cdd941-80c5-48b7-a222-c6b880b89cd2",
+        "thread_id": "c001ff9c-09cf-4077-8e35-ec424aa60654",
         "status": "failed",
         "route": null,
         "answer": "Run failed: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for the `Authorization` header to be explicitly omitted\"",
@@ -4242,7 +4242,7 @@
         "route": "out_of_scope"
       },
       "result": {
-        "thread_id": "7eda9a06-f9e8-41f8-ad42-104802a5d704",
+        "thread_id": "fe433e1e-ad0c-4f5c-9b5f-4342300de6f4",
         "status": "failed",
         "route": null,
         "answer": "Run failed: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for the `Authorization` header to be explicitly omitted\"",
@@ -4276,7 +4276,7 @@
         "route": "out_of_scope"
       },
       "result": {
-        "thread_id": "3d0639a5-fb32-4668-8c08-bbf9ab18bc31",
+        "thread_id": "944e1e77-8709-483c-8673-0cf007cd937b",
         "status": "failed",
         "route": null,
         "answer": "Run failed: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for the `Authorization` header to be explicitly omitted\"",
@@ -4310,7 +4310,7 @@
         "route": "out_of_scope"
       },
       "result": {
-        "thread_id": "e4b3ad0d-5a27-4a5c-a98c-b2b4dea71dd9",
+        "thread_id": "1f2bb9da-0d9a-4498-98b2-e7a1f1e9d1a9",
         "status": "failed",
         "route": null,
         "answer": "Run failed: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for the `Authorization` header to be explicitly omitted\"",
@@ -4322,7 +4322,7 @@
         "cost_by_model": {},
         "input_tokens": 0,
         "output_tokens": 0,
-        "latency_ms": 8,
+        "latency_ms": 7,
         "trace_url": null
       },
       "score": {
@@ -4348,7 +4348,7 @@
         ]
       },
       "result": {
-        "thread_id": "3d1fae65-6fb2-4f56-8abc-ec1e567edcf1",
+        "thread_id": "3fd92d0c-cf11-46c3-b67b-c2a88a8eade0",
         "status": "failed",
         "route": null,
         "answer": "Run failed: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for the `Authorization` header to be explicitly omitted\"",
@@ -4383,7 +4383,7 @@
         "route": "out_of_scope"
       },
       "result": {
-        "thread_id": "895223d5-342f-492b-bf34-14ae6dcd1202",
+        "thread_id": "5d47d0d3-0b7c-4ab4-9710-88b66402f328",
         "status": "failed",
         "route": null,
         "answer": "Run failed: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for the `Authorization` header to be explicitly omitted\"",
@@ -4420,7 +4420,7 @@
         ]
       },
       "result": {
-        "thread_id": "837e4cec-2008-4fe1-b251-8f18061b2c25",
+        "thread_id": "b99b36b3-efb4-4a7b-8380-1662ce580291",
         "status": "failed",
         "route": null,
         "answer": "Run failed: \"Could not resolve authentication method. Expected one of api_key, auth_token, or credentials to be set. Or for the `Authorization` header to be explicitly omitted\"",
